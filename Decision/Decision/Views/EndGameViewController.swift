@@ -10,10 +10,13 @@ import UIKit
 
 class EndGameViewController: UIViewController {
 
+    @IBOutlet weak var buttonRestart: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        buttonRestart.layer.masksToBounds = true
+        buttonRestart.layer.cornerRadius = 5
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7fw-JW-rGa">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -136,7 +136,7 @@
         <scene sceneID="0NY-lL-2aI">
             <objects>
                 <viewController id="NAd-3f-at3" customClass="EndGameViewController" customModule="Decision" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vTx-O6-7ph" customClass="End">
+                    <view key="view" contentMode="scaleToFill" id="vTx-O6-7ph">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -179,10 +179,83 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ni3-Rg-ykS"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonRestart" destination="LCe-hT-7Kb" id="3JA-DV-WK2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oar-U3-il8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2557.5999999999999" y="131.52709359605913"/>
+        </scene>
+        <!--Language View Controller-->
+        <scene sceneID="rMt-33-dGE">
+            <objects>
+                <viewController id="dvb-AR-XSj" customClass="LanguageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mJM-rF-eAc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cRw-9P-Bvy">
+                                <rect key="frame" x="112" y="326" width="150" height="160"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUh-lk-rph">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="40"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="32w-RB-26l"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="mBs-9f-aaM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="ENGLISH">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Y8-gM-eSe">
+                                        <rect key="frame" x="0.0" y="60" width="150" height="40"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="fTS-UY-Zuk"/>
+                                            <constraint firstAttribute="height" constant="40" id="ycc-jy-xH9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="РУССКИЙ">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wc2-2B-wbt">
+                                        <rect key="frame" x="0.0" y="120" width="150" height="40"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="58O-1l-VFx"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="Cwa-eA-uTs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="УКРАЇНСЬКА">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="cRw-9P-Bvy" firstAttribute="centerX" secondItem="mJM-rF-eAc" secondAttribute="centerX" id="Dbg-CH-9zj"/>
+                            <constraint firstItem="cRw-9P-Bvy" firstAttribute="centerY" secondItem="mJM-rF-eAc" secondAttribute="centerY" id="scy-dC-Bi1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dAW-B6-CZZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonLanguageEng" destination="HUh-lk-rph" id="AHp-fS-tUZ"/>
+                        <outlet property="buttonLanguageRus" destination="0Y8-gM-eSe" id="hc3-jp-AGr"/>
+                        <outlet property="buttonLanguageUkr" destination="Wc2-2B-wbt" id="KNs-jT-IDt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F9J-n8-ZHJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3334" y="132"/>
         </scene>
     </scenes>
 </document>

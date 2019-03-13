@@ -15,6 +15,7 @@
 		DA32B1A52238418C00E817BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA32B1A42238418C00E817BC /* Assets.xcassets */; };
 		DA32B1A82238418C00E817BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA32B1A62238418C00E817BC /* LaunchScreen.storyboard */; };
 		DA9BFEF22238A92A00A8035C /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BFEF12238A92A00A8035C /* EndGameViewController.swift */; };
+		DACC8AAC223961F800BD5804 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC8AAB223961F800BD5804 /* LanguageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DA32B1A72238418C00E817BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA32B1A92238418C00E817BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA9BFEF12238A92A00A8035C /* EndGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
+		DACC8AAB223961F800BD5804 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				DA06590822387B3000E6CB38 /* ChapterViewController.swift */,
 				DA06590A2238853100E6CB38 /* BlackScreenViewController.swift */,
 				DA9BFEF12238A92A00A8035C /* EndGameViewController.swift */,
+				DACC8AAB223961F800BD5804 /* LanguageViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				DA32B1A02238418C00E817BC /* DisclaimerViewController.swift in Sources */,
 				DA32B19E2238418C00E817BC /* AppDelegate.swift in Sources */,
+				DACC8AAC223961F800BD5804 /* LanguageViewController.swift in Sources */,
 				DA9BFEF22238A92A00A8035C /* EndGameViewController.swift in Sources */,
 				DA06590B2238853100E6CB38 /* BlackScreenViewController.swift in Sources */,
 				DA06590922387B3000E6CB38 /* ChapterViewController.swift in Sources */,
