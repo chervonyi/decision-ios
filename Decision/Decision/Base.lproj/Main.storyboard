@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hwq-BI-lxa">
-                                <rect key="frame" x="43.333333333333343" y="313.33333333333331" width="288.66666666666663" height="126"/>
+                                <rect key="frame" x="43.333333333333343" y="313" width="288.66666666666663" height="126"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvl-24-Nai">
                                         <rect key="frame" x="98" y="0.0" width="92.666666666666686" height="28.666666666666668"/>
@@ -34,7 +34,7 @@
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make the choice wisely!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajt-hH-OeW">
-                                        <rect key="frame" x="53.333333333333343" y="97.333333333333371" width="182" height="28.666666666666671"/>
+                                        <rect key="frame" x="53.333333333333343" y="97.333333333333314" width="182" height="28.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -74,7 +74,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5kO-vJ-YT2">
-                                <rect key="frame" x="126" y="359.66666666666669" width="122.66666666666669" height="72.666666666666686"/>
+                                <rect key="frame" x="126.33333333333331" y="359.66666666666669" width="122.66666666666669" height="72.666666666666686"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHAPTER 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kaa-YX-mct">
                                         <rect key="frame" x="0.0" y="0.0" width="122.66666666666667" height="28.666666666666668"/>
@@ -131,6 +131,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="87c-HJ-9ZX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1783" y="132"/>
+        </scene>
+        <!--End Game View Controller-->
+        <scene sceneID="0NY-lL-2aI">
+            <objects>
+                <viewController id="NAd-3f-at3" customClass="EndGameViewController" customModule="Decision" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vTx-O6-7ph" customClass="End">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE END" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bom-AX-6hb">
+                                <rect key="frame" x="138.66666666666666" y="341.66666666666669" width="98" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCe-hT-7Kb">
+                                <rect key="frame" x="112.66666666666669" y="406" width="150" height="40"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="G9Y-6w-NbG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="p2L-7p-JuJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Restart">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try to discover a different ending for yourself!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zi-zQ-rFj">
+                                <rect key="frame" x="40" y="651" width="295" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bom-AX-6hb" firstAttribute="centerY" secondItem="vTx-O6-7ph" secondAttribute="centerY" constant="-50" id="69i-Kx-bhs"/>
+                            <constraint firstItem="bom-AX-6hb" firstAttribute="centerX" secondItem="vTx-O6-7ph" secondAttribute="centerX" id="8qw-tr-Ttc"/>
+                            <constraint firstItem="LCe-hT-7Kb" firstAttribute="centerY" secondItem="vTx-O6-7ph" secondAttribute="centerY" constant="20" id="9tN-pD-khb"/>
+                            <constraint firstItem="LCe-hT-7Kb" firstAttribute="centerX" secondItem="vTx-O6-7ph" secondAttribute="centerX" id="Cn4-fA-bIq"/>
+                            <constraint firstItem="6zi-zQ-rFj" firstAttribute="centerX" secondItem="vTx-O6-7ph" secondAttribute="centerX" id="F2u-W0-fg3"/>
+                            <constraint firstItem="Ni3-Rg-ykS" firstAttribute="bottom" secondItem="6zi-zQ-rFj" secondAttribute="bottom" constant="110" id="vcv-Im-Ro8">
+                                <variation key="heightClass=compact" constant="30"/>
+                            </constraint>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ni3-Rg-ykS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oar-U3-il8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2557.5999999999999" y="131.52709359605913"/>
         </scene>
     </scenes>
 </document>
