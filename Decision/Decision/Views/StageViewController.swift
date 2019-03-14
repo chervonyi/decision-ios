@@ -19,6 +19,13 @@ class StageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setUIProperties()
+        
+        PlotXMLParser.loadPlotFromXML()
+    }
+
+   
+    func setUIProperties() {
         // Set padding
         mainBlockText.padding =  UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
         blockChoice1.padding =  UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
@@ -42,8 +49,8 @@ class StageViewController: UIViewController {
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(StageViewController.touchMainTextBlock))
         mainBlockText.addGestureRecognizer(gestureRecognizer)
     }
-
-   
+    
+    
     @objc func touchMainTextBlock(gestureRecognizer: UIGestureRecognizer) {
         mainBlockText.text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n\t\tLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         

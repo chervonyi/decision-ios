@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DA06590922387B3000E6CB38 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06590822387B3000E6CB38 /* ChapterViewController.swift */; };
 		DA06590B2238853100E6CB38 /* BlackScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06590A2238853100E6CB38 /* BlackScreenViewController.swift */; };
+		DA10050A223AD2EF007ADD90 /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA100509223AD2EF007ADD90 /* Stage.swift */; };
 		DA1CDB7E2239FA0F00609873 /* plot.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7A2239FA0E00609873 /* plot.xml */; };
 		DA1CDB7F2239FA0F00609873 /* scenario_en.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7B2239FA0E00609873 /* scenario_en.xml */; };
 		DA1CDB802239FA0F00609873 /* scenario_uk.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7C2239FA0F00609873 /* scenario_uk.xml */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		DA06590822387B3000E6CB38 /* ChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
 		DA06590A2238853100E6CB38 /* BlackScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackScreenViewController.swift; sourceTree = "<group>"; };
+		DA100509223AD2EF007ADD90 /* Stage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage.swift; sourceTree = "<group>"; };
 		DA1CDB7A2239FA0E00609873 /* plot.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plot.xml; sourceTree = "<group>"; };
 		DA1CDB7B2239FA0E00609873 /* scenario_en.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scenario_en.xml; sourceTree = "<group>"; };
 		DA1CDB7C2239FA0F00609873 /* scenario_uk.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scenario_uk.xml; sourceTree = "<group>"; };
@@ -59,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA100508223AD2D5007ADD90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA100509223AD2EF007ADD90 /* Stage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DA32B1912238418C00E817BC = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 		DA32B19C2238418C00E817BC /* Decision */ = {
 			isa = PBXGroup;
 			children = (
+				DA100508223AD2D5007ADD90 /* Models */,
 				DA407AE72239F9610042770E /* xml */,
 				DA407AE42239F7730042770E /* Components */,
 				DA32B1AF22386B1000E817BC /* Views */,
@@ -215,6 +226,7 @@
 				DA407AE32239C4C20042770E /* MapViewController.swift in Sources */,
 				DA407AE62239F87A0042770E /* PlotXMLParser.swift in Sources */,
 				DA9BFEF22238A92A00A8035C /* EndGameViewController.swift in Sources */,
+				DA10050A223AD2EF007ADD90 /* Stage.swift in Sources */,
 				DA06590B2238853100E6CB38 /* BlackScreenViewController.swift in Sources */,
 				DA06590922387B3000E6CB38 /* ChapterViewController.swift in Sources */,
 				DACC8AB02239788200BD5804 /* StageViewController.swift in Sources */,
