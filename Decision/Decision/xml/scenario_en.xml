@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plot>
+    <stage type="chapter">
+        <id>AA000</id>
+        <number>PROLOGUE</number>
+        <title></title>
+    </stage>
+
+    <stage type="simple">
+        <id>AA001</id>
+        <text>
+            <block>\t\tIt all began from the conflict of two countries. Thandor started to suspect the neighboring Manish in a secret development of new biological weapon. Such a course of events worried them, that much that they repeatedly invoked Manish to stop any related ongoing developments. In return, the latter only denied the very existence of workings of a similar kind. But it did not last long that way. Up until the point, when Thandor declared war on Manish.</block>
+            <block>\t\tDue to the fact, that Manish government in no way expected such consequences, the country wasn’t ready for a war. Thandor forces promptly attacked and captured yet more and more territory. That said, Thandor politics were overly lenient regarding to territories, which they were capturing.</block>
+            <block>\t\tTherefore, troops, approaching any city, in absence of enemy forces, simply declared them captured without a shot. Citizens, in turn, did not resist under such circumstances. Thereby, Thandor forces invaded each and every city and village on their path, except two outposts, that were besieged in the first days of the war.</block>
+        </text>
+        <image>image_0</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA002</id>
+        <number>CHAPTER 1</number>
+        <title>47 Days</title>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA003</id>
+        <text>
+            <block>\t\t— Mark, how long has it been? — I asked.\n\t\t— 47 days — reluctantly, in sleepy voice replied Mark.\n\t\tEvery morning here started just like that. According to Mark’s counting, precisely 47 days have passed since the war began. Since the Manish government enlisted us. Since the first time we met here, at outpost “Southern”. We did not understand what awaits us ahead, back then.</block>
+            <block>\t\tMark Taylor. About the men like him, for the most part, it is said — the “gray mass”. He is a vivid example of this notion. Mark, by his nature, is plain, kind and very trustful guy. There were no questions regarding to his intellectual abilities. Round, dumpish face betrayed him instantly. It seemed like, if you were to claim him that 2+2=5 long enough, he would believe in that sincerely.</block>
+            <block>\t\tSometimes, we jokingly asked each other something alike: “What are your plans for today?”. Although fully aware of what will we get — breakfast, mandatory everyday rollcall of every soldier and officer on the main square and combat duty on one of the bridges of our outpost.</block>
+        </text>
+        <image>image_1</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA004</id>
+        <text>
+            <block>\t\t— This Davis is pissing me off. — quietly said Mark, as soon as he spotted Sergeant Davis Lambert in all his beauty. — What do you think, Ralf?\n\t\t— I’m not thinking. — I replied shortly.\n\t\tSergeant Davis Lambert — were the commander of outpost “Southern”. He was elected day after the previous commander's death during artillery barrage.</block>
+            <block>\t\tDuring the rollcall, Davis talked and talked without stopping. Long speech was interrupted by prolonged whistle. In a split second — EXPLOSION! Adjacent building got struck by an artillery shell. It was so powerful, that the next street could have been seen through the exploded house and people, that were standing next to it, got thrown away a few meters.</block>
+            <block>\t\tEveryone rushed to cover. A few moments later — the second explosion! And then the third! With every strike the number of people alive in the outpost decreased. Under the Davis’s order, all those who were on the square, hid at the nearest cover — administration building. The explosions were such a force that it seemed as if the world is going to end.</block>
+        </text>
+        <image>image_2</image>
+    </stage>
+    
+    <stage type="choice">
+        <id>AA005</id>
+        <text>
+            <block>\t\t— Bring’em here! — Davis guided the soldiers carrying dead people. — Come on! Move it!\n\t\tIn a few minutes explosions ceased.\n\t\t— The end? — asked Mark. — Did it stop?\n\t\t— No one is getting out! — Sergeant Davis yelled.</block>
+            <block>\t\tI took Mark by hand and pulled him closer to the exit.\n\t\t— That’s not for long. — I told him. — They’re taking their time, to change the direction of fire. But during this time we can try and save somebody. We should check, if anyone needs our help.</block>
+            <block>\t\tJust as we exited the building, enemy began their artillery barrage. Mark instinctively ran back into cover. During that time, I noticed the woman stuck under debris, at the opposite side of the street. She desperately tried to free herself. I have already decided to help her, when I heard the scream of a little child standing in the middle of the square.</block>
+            <block>\t\tThe same one we stood a few minutes ago. I knew, I should do the same as Mark. Nonetheless, decided to save at least someone. Thus, I faced a difficult choice — save the woman from the debris or the little child that stood in the middle of the square and cried.</block>
+        </text>
+        <image>image_5</image>
+        <choice>Save the child</choice>
+        <choice>Save the woman</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA006</id>
+        <text>
+            <block>\t\tI decided to save the little one. I haven’t been sure of would it be possible to pull the woman out of the wreckage by myself, so I went for the child. When I entered into cover with the child on my hands, where Mark waited for me, I heard a powerful explosion.</block>
+            <block>\t\tSound came from the back, approximately from the place, where the woman was. I didn’t want to turn around, as the Mark’s face expression told me all I needed to know.</block>
+        </text>
+        <image>image_5</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA007</id>
+        <text>
+            <block>\t\tI decided to save the woman. Time was of the essence, hence, I ran to the woman and began to lift fallen pieces of former roofs and walls. I managed to save her surprisingly swiftly. Right after I carried the woman into the cover, I heard a powerful explosion somewhere from the main square, where, most certainly, the child stood a while ago. I concluded to not return.</block>
+        </text>
+        <image>image_5</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA008</id>
+        <number>CHAPTER 2</number>
+        <title>Stephen Martinez</title>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA009</id>
+        <text>
+            <block>\t\tA new day came. Morning rollcall began. After yesterdays, almost every soldier lost a close friend, so everyone was aggrieved and depressed. Sergeant Davis started his speech with the announcement of the list of perished after yesterday’s barrage. According to him, more died yesterday than from all of the previous strikes in total. He then proceeded to issue assignments.</block>
+            <block>\t\t— Burns, Randall, Joyce — Northwest wing! — ordered Davis, after which those whom he called have obeyed.\n\t\t— Fischer, Grant — Southwest! — he continued.\n\t\t— Martinez, Mitchell, Taylor — The Eastern wing! After hearing the names of the three friends in a row, Mark frankly rejoiced and undetectably pushed me with his elbow. By the way, he always stood next to me and always did so, if he heard a good news.</block>
+            <block>\t\tNo matter how bad the day was, considering the latest events, but that day, after a long period of time, we finally saw our good friend — Stephen Martinez. According to Mark, Stephen laid in the hospital for 12 days. He ended up there after one of the bombings, which resulted in both legs injury.</block>
+            <block>\t\t"It was not that bad," Steven spoke, boasting that he had 12 days free from war.\n\t\t— It wasn’t that bad after all. — joked Stephen, boasting that he had a 12 day vacation war—free.\n\t\t— How’s Alice? — asked Mark. — Did she ask ‘bout me? Did she say when will she free?\n\t\t— She’s alright. Asked about you. — answered Stephen.</block>
+            <block>\t\tThe head of the hospital at the "Southern" outpost was a young Alice Hester, who Mark had a crush on.\n\t\t— Here we are! — almost screamed Stephen, when we took the required post. He seems to have already missed that.</block>
+            <block>\t\tUsually, the outpost defense — is boring and repetitive thing. All of the Thandor soldiers sit in their trenches and do not protrude the majority of time. Therefore, our work is all about contemplating, if, all of a sudden, those stupid people did not decide to attack. Artillery barrages are quite infrequent, however, unfortunately, when they occur, they carry great losses.</block>
+            <block>\t\t— Well, now tell me! How were you here without me? — said Stephen after he sat down on a wooden floor under a large wall.</block>
+            <block>\t\tSo I began to tell him about everything that happened during his absence. About the death of our former commander of the outpost, during the bombardment. About the Davis assignment. And even about yesterday's artillery barrage that took lives of about 20 people.</block>
+            <block>\t\tMark was sitting next to me, but only threw short phrases, commenting on everything I was talking about. Something like "Yeeeeeah... Captain Lewis... Sorry for him..." or "Yes! Sergeant Davis! You saw him today. Terrible guy!"</block>
+            <block>\t\tAll this time Stephen listened carefully and enthusiastically to our story. As for him, he is the complete opposite of Mark — intelligent, witty, talkative and very confident guy. Typically, Stephen only read books, retold it to Mark and us, and then continued to read. That lasted a very long time, until Stephen decided to accustom Mark to literature.</block>
+            <block>\t\t— What are you reading now, Stephen? — Mark asked, since the last book he gave to Mark, before he went to the hospital, he had read a long ago.\n\t\t— “The history of the universe”. Author — Jake Manu.\n\t\t— Hmm. Interesting. Can I read it later?</block>
+            <block>\t\t— Of course. And how are you doing with the last book I gave you? Have you read it?\n\t\t— Yes! Four days ago! I liked it a lot!\n\t\t— I am glad. — Stephen answered and plunged into his book.</block>
+            <block>\t\tMeanwhile, I plunged into my own thoughts, sitting around them. The only thing that worried me then was — "How is this going to end and what is waiting for us next?"</block>
+        </text>
+        <image>image_4</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA010</id>
+        <number>CHAPTER 3</number>
+        <title>New people?</title>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA011</id>
+        <text>
+            <block>\t\tIt's been a few days since Stephen returned from the hospital. On that day, Mark asked for Sergeant Davis a time off to help with the wounded at the hospital. We, with Steven, immediately realized what was the real deal. He wanted to see Alice once more.</block>
+            <block>\t\t— Do you hear that noise? — I asked Stephen — Here it is, listen.\n\t\t— I do not hear anything.\n\t\tBut it was there, indeed. He came from the northern side of the city. Approximately from the area where the hospital was established. "What can this be?" — I thought.</block>
+            <block>\t\tYes! I can hear! — exclaimed Stephen. — I have no idea what that might be. Seems like it’s coming from our hospital, isn’t it?\n\t\t— That's for sure.\n\t\t— Shall we take a look at what’s happened there? — I immediately offered, being ready to descend from a wooden hanging near the wall.</block>
+        </text>
+        <image>image_4</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA012</id>
+        <text>
+            <block>\t\tThe closer we approached the hospital, the more we realized that something serious was going on there. On the square opposite the hospital, we noticed a large crowd of people. There were military and civilian ones.</block>
+            <block>\t\tBy the way, our outpost looked like a real fortress. From the western and eastern sides there were large walls, 60 feet high. And from north and south, we were surrounded by majestic mountains of the mountain range Grendish. Thus, the outpost was somewhat a city—fortress.</block>
+            <block>\t\tAmong the crowds we noticed a few people sitting on the ground.\n\t\t— Captives, apparently. — Stephen immediately offered his version.</block>
+            <block>\t\t— Those are soldiers from the outpost "Northern". — one of the civilians, who stood beside us in the crowd, corrected Stephen. — They, escaped from the outpost with the help of mines a few days ago, immediately before the assault, thereby saving their own lives.</block>
+            <block>\t\tIt turns out, the mountains that surrounds us are full of old mines. They are all interconnected. There is even a way between the two outposts. But these mines have been abandoned long ago. Apparently, that’s why nobody heard about them before.</block>
+            <block>\t\tThe next day, everything began with the rollcall on the square. Everything was, as usual, except that there were new faces among us. Sergeant Davis told everyone about the adventure that led new people to the outpost. Then he began to issue tasks.</block>
+            <block>\t\t— Cook! Go with Martinez, Mitchell and Taylor to the East Wing.\n\t\tThat's more or less how the fate brought us together with our new friend who came to us from the outpost "Northern" — Ronald Cook. He was a 23—year—old boy, short cut, dark and short. At first, he seemed to us a little frightened and modest. However, a further conversation with him changed our mind.</block>
+            <block>\t\t— I tell you, nobody will return after you. — Ronald asserted about the fact that the front line had advanced far into our country. — The only option for us — is to flee.\n\t\t— How do you imagine this? — asked Mark.</block>
+            <block>\t\t— Oh, it's very simple. The same way we came here, the same way we shall run away. Can you see that mountain, Mark? Beneath it, there are hundreds of different mines. Some of them lead to Thandor, and some to Manish. I spent a lot of time studying the system of mines around our outposts, so bringing us out would not be a problem. I assure you, to flee — is our only chance to survive!</block>
+        </text>
+        <image>image_7</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA013</id>
+        <number>CHAPTER 4</number>
+        <title>Beginning of the end</title>
+    </stage>
+    
+    <stage type="choice">
+        <id>AA014</id>
+        <text>
+            <block>\t\tIt was supposed to be just another day. Everybody gathered on the square and waited for Davis, who was almost never late. When he eventually came, everything started as usual. After his speech, he started assigning tasks, but got interrupted by sudden scream of the Sergeant Brandon Perkins, who ran along the street.</block>
+            <block>\t\t— Sergeant! Sergeant! — he shouted.\n\t\t— Yes, I am listening!\n\t\t— A big assault is being prepared! The intelligence has just reported! — Sergeant Brandon hardly spoke those words.</block>
+            <block>\t\t— What?! When?! — Davis asked indignantly.\n\t\t— I don’t know. They said only — "Several days".\n\t\tWhen we all went to the posts, Ronald nearly knocked me down from my feet, as he pushed me over my shoulder.</block>
+            <block>\t\t— So what!? Are you happy?! Now we are all dead! — shouted Ronald. Honestly, I've never seen him like that before.\n\t\t— Well, what do you have to offer?! — Mark came up for me.\n\t\t— What offer, huh? A run through the mines, you dumbass! This is our only way out. How come you not understand that?</block>
+        </text>
+        <image>image_2</image>
+        <choice>Stay defend the outpost</choice>
+        <choice>Flee outpost</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA015</id>
+        <text>
+            <block>\t\t— No! We will not run away. Escape is the last thing to do. We must repulse the assault and protect the outpost first.\n\t\t— I will also stay. — said Mark.\n\t\t— And me. — said Stephen. But his voice gave out a sorrow note. Apparently, he still wanted to go.</block>
+            <block>\t\t— Well, have a nice stay, silly you! And I'll go, as I've done it before. I did it once — I will do that again! — waving his hand, Ronald went towards the barracks. Apparently, he wanted to gather his belongings, I don’t really know, but we did not see him anymore.</block>
+            <block>\t\t— Well, guys, let’s go get ready! We must protect the outpost! Hope is on us! We have to do it! — I said.</block>
+        </text>
+        <image>image_2</image>
+    </stage>
+    
+    <stage type="black">
+        <id>AA0151</id>
+        <text>
+            <block>\t\tThey did everything that depended on them at that moment. After the assault on October 10, 1921, the outpost “Southern” was completely destroyed by the Thandor troops. All of its defenders at that moment — were killed.</block>
+        </text>
+    </stage>
+    
+    <stage type="choice">
+        <id>AA016</id>
+        <text>
+            <block>\t\t— Okay. He is right — I said.\n\t\t— Finally! — shouted Ronald. — So, are we going through the mines?\n\t\t— Wait. — Stephen interfered. — Maybe there is other variant of the escape route? What do you think?</block>
+            <block>\t\t— There is one. When I was in the hospital, with Alice, she told me something about the system of drainage of our outpost. Using it, in theory, one can safely leave the outpost. — said Mark.\n\t\t— Well, at last we can descend from the wall on a rope at night. — added Stephen.</block>
+        </text>
+        <image>image_2</image>
+        <choice>Use the mines</choice>
+        <choice>Get down the wall at night</choice>
+        <choice>Through the drainage system</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA024</id>
+        <text>
+            <block>\t\t— Okay. We will go through the mine. Stephen, Mark, you both go to Sergeant Brandon, and ask him a map of mine moves.\n\t\t— But I can guide you with no map! — protested Ronald.\n\t\t— Doesn’t matter! With one we’ll be much safer. — I denied. — We will go with it, or we will not go at all!</block>
+        </text>
+        <image>image_2</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA018</id>
+        <text>
+            <block>\t\t— And we will do it. Going down the rope from the wall will be the easiest and possibly the smartest thing to do. — I said. — Mark, Steven, you both go to the warehouse and take the rope.</block>
+        </text>
+        <image>image_2</image>
+    </stage>
+    
+    
+    <stage type="simple">
+        <id>AA017</id>
+        <text>
+            <block>\t\t— I think that the drainage system will be the safest. — I said. — Mark, Stephen, you both go to the warehouse, and take a few flashlights.</block>
+        </text>
+        <image>image_2</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA025</id>
+        <text>
+            <block>\t\tFor a moment, me and Ronald were sitting and discussing our future plans, when suddenly Alice had run up to us.\n\t\t— What can we help you with? — asked Ronald.\n\t\t— Ralf, Mark told me everything. Do you want to flee? — Alice began to whisper.\n\t\t— What a chump! — Ronald interrupted her.</block>
+            <block>\t\t— So what? — I answered. — Do you want to go with us?\n\t\t— Well... I would really like to, to be honest. Of course if you let me.\n\t\t— Yes, sure. You can come with us. — I said.</block>
+            <block>\t\t— Great! — She exclaimed joyfully. — One more thing! I also thought that you... ahem... I mean, us, would need a map of Manish. So here it is! — Alice shouted joyfully, taking a folded map out of a small satchel.\n\t\t— Well, at least we’ve got a payback from you... — Ronald said indifferently.</block>
+            <block>\t\t— Wow! That will come in handy for sure! Give it to me! — I said, as if waiting for a Christmas gift. — Hmm... Yeah... Let's see... Judging by the map layout... after we leave the outpost, we will have two options — Stonehail or Bertraw.</block>
+            <block>\t\tAfter that, we carefully planned out our escape, and scheduled it to the next day.</block>
+        </text>
+        <image>image_6</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA026</id>
+        <text>
+            <block>\t\tIt was raining in the morning. We gathered on the square. Davis began to distribute the tasks, as suddenly — it began! The same prolonged whistle, and in a few seconds — an explosion! Then again! And again! And again! Everybody ran away.</block>
+            <block>\t\t— We shall run to the mines! Now! — Shouted Ronald.</block>
+        </text>
+        <image>image_2</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA019</id>
+        <text>
+            <block>\t\tFor a moment, me and Ronald were sitting and discussing our future plans, when suddenly Alice had run up to us.\n\t\t— What can we help you with? — asked Ronald.\n\t\t— Ralf, Mark told me everything. Do you want to flee? — Alice began to whisper.\n\t\t— What a chump! — Ronald interrupted her.</block>
+            <block>\t\t— So what? — I answered. — Do you want to go with us?\n\t\t— Well... I would really like to, to be honest. Of course if you let me.\n\t\t— Yes, sure. You can come with us. — I said.</block>
+            <block>\t\t— Great! — She exclaimed joyfully. — One more thing! I also thought that you... ahem... I mean, us, would need a map of Manish. So here it is! — Alice shouted joyfully, taking a folded map out of a small satchel.\n\t\t— Well, at least we’ve got a payback from you... — Ronald said indifferently.</block>
+            <block>\t\t— Wow! That will come in handy for sure! Give it to me! — I said, as if waiting for a Christmas gift. — Hmm... Yeah... Let's see... Judging by the map layout... after we leave the outpost, we will have two options — Stonehail or Bertraw.</block>
+            <block>\t\tAfter that, we carefully planned out our escape, and scheduled it to the next day.</block>
+        </text>
+        <image>image_6</image>
+    </stage>
+    
+    <stage type="choice">
+        <id>AA021</id>
+        <text>
+            <block>\t\tIt was raining in the morning. We gathered on the square. Davis began to distribute the tasks, as suddenly — it began! The same prolonged whistle, and in a few seconds — an explosion! Then again! And again! And again! Everybody ran away.</block>
+            <block>\t\t— We shall run to the mines! Now! — Shouted Ronald.</block>
+        </text>
+        <image>image_2</image>
+        <choice>Stick to the plan</choice>
+        <choice>Listen to Ronald and use mines</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA022</id>
+        <text>
+            <block>\t\t— No! We will act according to plan! — I said.</block>
+        </text>
+        <image>image_2</image>
+    </stage>
+    
+    <stage type="black">
+        <id>AA0221</id>
+        <text>
+            <block>\t\tUnfortunately, the plan has never been implemented. The artillery shell hit the building in which our heroes hid. Outpost "Southern" was completely destroyed after several hours of intense bombardment. None have succeeded with an escape...</block>
+        </text>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA027</id>
+        <text>
+            <block>\t\t— Listen! We need to run to the mines! Ronald is right! — I said.\n\t\tWe all gathered together and at the moment the shelling stalled, we ran towards the hospital. Just next to him was the entrance to the mine.</block>
+            <block>\t\tAs we ran past the hospital, we saw Alice sitting scared at its exit. By the way, she did not know that we were going to leave the outpost right now.\n\t\t— Alice! Follow us! Come on! — Mark shouted to her, just as he noticed her amongst all the other people around.</block>
+            <block>\t\tWe ran into an old room, which was the actual entrance to the mines. Next, we took the lanterns and went to the mine through the old wooden doors...</block>
+        </text>
+        <image>image_6</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA028</id>
+        <number>CHAPTER 5</number>
+        <title>The Mines</title>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA029</id>
+        <text>
+            <block>\t\t— How old is it? — asked Mark.\n\t\t— Maybe a couple dozens or more. — answered Stephen, who was behind.</block>
+            <block>\t\tOur group consisted of 5 people — Me, Mark, Alice, Stephen and Ronald. Mine tunnels were fairly narrow, so we walked in a column. Ronald was ahead. Of all of us, he was the only one to be sure of what we are doing.</block>
+            <block>\t\t— Here! — Ronald led us with a certain voice.\n\t\t— Are you sure? — Mark and Alice questioned almost every branch.\n\t\t— No I’m not! Choosing them randomly! — Ronald made fun of them. — Of course I'm sure. You should suffice your questioning.</block>
+            <block>\t\t— No need to worry. — said Stephen. — Ronald knows what he is doing.\n\t\t— Can confirm. — I added.</block>
+            <block>\t\tWe walked the caves for about 5 hours. Everyone has already begun to lose any hope that we will ever get out of them, as suddenly, Ronald pronounced a long awaited phrase: "I know this place! We are close! " Everyone cheered up. In a few minutes we reached the old door. Opened it. And saw the bright daylight.</block>
+        </text>
+        <image>image_8</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA0291</id>
+        <text>
+            <block>\t\t— Hurray! Finally! — shouted Mark.\n\t\t— You did it, Ronald! — said Stephen in a joyful voice.\n\t\t— Yes! Well done! — I added.</block>
+            <block>\t\t— Now, what is our plan? — asked Mark.\n\t\t— Get to the territory controlled by our troops. That is, go down across the front line. — I answered.\n\t\t— Get back home. — added Ronald.</block>
+            <block>\t\tThe exit situated at the foot of the mountain, far from the Thandor’s military camp, that were supposed to attack the outpost on the eastern side.\n\t\t— Somewhere around the mountains are Stonehail and Bertraw! — I said.</block>
+            <block>\t\t— Gosh! A long journey awaits us. — from time to time sadly repeated Mark.\n\t\t— It is also worth mentioning that all of this territory is under control of the enemy troops of Thandor. We must be careful. Even in small cities we may be in danger. — Steve warned us.</block>
+            <block>\t\t— Where shall we go first? — asked Ronald.</block>
+        </text>
+        <image>image_9</image>
+    </stage>
+    
+    <stage type="map">
+        <id>AA030</id>
+        <image>map_1</image>
+        <choice>Stonehail</choice>
+        <choice>Bertraw</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA031</id>
+        <text>
+            <block>\t\t— Let's go to the Stonehail!</block>
+        </text>
+        <image>image_9</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA033</id>
+        <text>
+            <block>\t\t— Let's go to the Bertraw!</block>
+        </text>
+        <image>image_9</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA032</id>
+        <number>CHAPTER 6</number>
+        <title>Stonehail</title>
+    </stage>
+    
+    <stage type="simple">
+        <id>AC001</id>
+        <text>
+            <block>\t\tAt Stonehail we arrived in two days. We got there by foot. Everyone was exhausted, so we decided that it would be better for us to stay here for a while.</block>
+            <block>\t\t— And where do we stay overnight? — asked Ronald.\n\t\t— We'll figure something out shortly. — replied Stephen, as we walked through the dark streets of the city.\n\t\t— Wait for me here. — I said and went to a small house, standing on the edge of the city.</block>
+            <block>\t\tSurprisingly, we were very kindly welcomed by an old Mrs. Kernel, who lived alone. She told us that Thandorians left the city a long time ago, so the next morning we decided to split up and find out some news about the frontline.</block>
+            <block>\t\tWe gathered up at dinner, in the same house, at Mrs. Kernel.\n\t\t— Have you learned anything? — I asked.\n\t\t— Me and Mark, we heard from a carpenter, that there is an Eaglechild camp somewhere nearby, it’s where the prisoners are held. I think we could go there and release some. — Alice said.</block>
+            <block>\t\t— Foolish suggestion! We shall rescue ourselves, but do not seek to save anyone! — Ronald denied. In general, Ronald very much liked to argue at of any idea.</block>
+            <block>\t\t— Mrs. Kernel allowed me to dig through her husband’s office. There I found a detailed map of the forest paths. The entrance to the forest, by the way, is only in a few hours of walk from here. — said Stephen holding a map in his hands. — Judging by the map, we might be able to safely pass most of the captured territories through the forest.</block>
+            <block>\t\t— My dears, if you are looking for the easiest way to get home, then you should go to Saint—Willow.\n\t\t— The train station! — Steven interrupted an old woman.\n\t\t— Exactly! — added the granny. — You can buy a train ticket and go to Camington, or even Bright. It’s up to you to decide.</block>
+            <block>\t\t— A good idea. — agreed Ronald.\n\t\t— So, what is the actual plan? — asked Mark.</block>
+        </text>
+        <image>image_21</image>
+    </stage>
+    
+    <stage type="map">
+        <id>AC002</id>
+        <image>map_2</image>
+        <choice>Forest</choice>
+        <choice>Prisoner—of—war camp</choice>
+        <choice>Saint—Willow</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AC004</id>
+        <text>
+            <block>\t\t— We’ll go through the forest. — I decided. — Come out tomorrow, early in the morning.\n\t\t— Okay. — said Stephen and Mark.\n\t\t— It is necessary to choose the optimal way. — added Ronald. And then, he and Steven sat for almost two hours, exploring the map of the trails of the Sherid Forest, located in the northern part of the country.</block>
+            <block>\t\tThe next morning, Mrs. Kernel gave us food packages and wished for a good road. We thanked her for what she had done for us, and moved on.</block>
+        </text>
+        <image>image_21</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AC003</id>
+        <text>
+            <block>\t\t— But maybe Alice is right and we should stop by the camp? — I asked.\n\t\t— No! Not this! — categorically responded to such an idea Ronald.\n\t\t— What do you think, Stephen? — I wondered.\n\t\t— I don’t know. If you think it fits, then we can try. — he answered.</block>
+            <block>\t\tThe next day we moved on. All the way, we argued that it was not worth going there. And something was telling me, it was worth turning back. But...</block>
+            <block>\t\tWe had come closer to the camp, when we noticed the guard.\n\t\t— Indeed it was a bad idea... — I agreed.\n\t\t— Let's get back! Immediately! — Ronald said too loudly. As a result, we were noticed. No matter how much we tried, but we still could not escape.</block>
+        </text>
+        <image>image_21</image>
+    </stage>
+    
+    <stage type="black">
+        <id>AC0031</id>
+        <text>
+            <block>\t\tThey were caught. Tortured. And a few days later they were hanged, for a suspicion in espionage for Manish. The life of our heroes was cut short and they have never returned home...</block>
+        </text>
+    </stage>
+    
+    <stage type="simple">
+        <id>AC005</id>
+        <text>
+            <block>\t\t— Mrs. Kernel seems to be right. We shall go to Saint—Willow. But we also need to get there somehow. What would you suggest? — I inquired the old woman.\n\t\t— My brother was about to drive there. He can take you with him.\n\t\t— It would be nice. — Ronald threw briefly.</block>
+            <block>\t\tThe next morning, we met with an old woman’s brother, who drove us straight to the city of Saint—Willow.</block>
+        </text>
+        <image>image_21</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA034</id>
+        <number>CHAPTER 6</number>
+        <title>Bertraw</title>
+    </stage>
+    
+    <stage type="choice">
+        <id>AB001</id>
+        <text>
+            <block>\t\tAt Bertraw we arrived in two days. We got there by foot. It was the middle of the night. Everyone was very tired, so we decided that it would be better for us to stay here. On our way, we saw the building. It was very old, the windows were beaten, things were scattered all around.</block>
+            <block>\t\tAs soon as we entered the building, we immediately realized that someone is there. We have heard the voices of at least two people. They were coming from upstairs.\n\t\t— What are we going to do? — asked Steve in a slightly scared voice.</block>
+        </text>
+        <image>image_11</image>
+        <choice>Go upstairs and find out who is there</choice>
+        <choice>Leave the building</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB002</id>
+        <text>
+            <block>\t\t— Let's climb up and find out who is there. — I suggested.\n\t\t— Are you sure? — Ronald asked quietly.\n\t\t— Let's go. — agreed Stephen.</block>
+            <block>\t\tAs we climbed the stairs, Mark accidentally made noise. As a result, people on the second floor heard us and started to run away. When we got up, we noticed the silhouettes of two people.\n\t\t— They have probably looked for asylum at night in the same way we did. — Alice offered her version of situation.\n\t\t— Apparently. — agreed Stephen. — They also had their own fire here.</block>
+            <block>\t\t— Let's stay here, as they've already gone. — said Mark. — We will not have to relight the fire even.\n\t\t— Good point. — supported his idea Ronald.</block>
+            <block>\t\tWe had a dinner, built up our strength and began to discuss plans for tomorrow.</block>
+        </text>
+        <image>image_11</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB003</id>
+        <text>
+            <block>\t\t— Let's get out of here. — I said. — We shall find another place for overnight stay.</block>
+            <block>\t\tSo we did. We left the building and continued to go along the street. Through several houses, we noticed another place for our stay — another old, abandoned building. We settled on the ground floor, lit a fire to warm up and cook some food.</block>
+        </text>
+        <image>image_11</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB004</id>
+        <text>
+            <block>\t\t— What shall we do tomorrow? — asked Ronald.\n\t\t— I think we should know more about the situation nearby to know where to go next.\n\t\t— I agree. — agreed with me Stephen.</block>
+            <block>\t\tThe next morning, we split up to find out as much information about the situation in the city as we could. And in the evening, gathered again in the old school building.\n\t\t— Me and Alice have been able to find out that there is some kind of city. Saint—Willow, seems to be its name. A railway passes through it. With its help, it might be possible to quickly and safely get to the front lines. — said Mark.</block>
+            <block>\t\t— Yes. Also, the entire city hangs out ads for recruiting volunteers in the Thandorian army. They have a base not far from here. — added Alice.\n\t\t— We might be able to go under the guise of Thandor's military and get straight to the front line! — said Stephen.</block>
+            <block>\t\t— We might. But this is a very risky thing to do. If they were to find out that we are Manish soldiers, we can get captured. — Ronald said.\n\t\t— That's right too. — agreed Stephen.</block>
+            <block>\t\t— On the Manish map, I noticed that we have one more option. One can go to the city of Finedaile, which is on the seafront. There should be ship crossings, and so we could quickly get to our territories. The main thing is that there have to be no Thandor troops for it work out well. What do you think? — I said.</block>
+            <block>\t\tWe spoke for a very long time, but we did not decide what to do next.\n\t\t— I don’t know. — said Ronald. — It is yours to decide, Ralph.</block>
+        </text>
+        <image>image_11</image>
+    </stage>
+    
+    <stage type="map">
+        <id>AB005</id>
+        <image>map_3</image>
+        <choice>Saint—Willow</choice>
+        <choice>Military base</choice>
+        <choice>Finedaile</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB006</id>
+        <text>
+            <block>\t\t— Let's go to Saint—Willow. Buying tickets, I think, will not be a problem. Yes, and getting by train is much easier and safer. — I decided.\n\t\t— Agreed. — said Mark.</block>
+            <block>\t\tThe next morning, we left the city. As soon as we passed several kilometers, we heard the sound of a motor. It was a small bus carrying the goods. The driver gladly offered us help, and brought us to the city.</block>
+        </text>
+        <image>image_11</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB008</id>
+        <text>
+            <block>\t\t— Let's try to go to the military base. And there, under the guise of recruits, we will be brought directly to the front line.\n\t\t— It would be great! — Mark supported my idea.</block>
+            <block>\t\tThe next day we picked up enough things and set off on the road. It took about 2 days to go to the Thandor’s military base. In general, that military base was formed on the basis of a small town Leedaile. Therefore, it will not be difficult to penetrate into its territory.</block>
+            <block>\t\t— We must be very careful. — warned Ronald. — We literally will be surrounded by enemies.\n\t\t— That’s for sure. — Mark repeated in a sad voice.</block>
+        </text>
+        <image>image_11</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB007</id>
+        <text>
+            <block>\t\t— Let's go to Feindale. And then we shall take a ship. — I decided.\n\t\t— My full support! — said Mark.</block>
+            <block>\t\tAnd so, we went to Finedaile. The road was not easy. It was raining for a long time and we had to stop. But after a few days, we were at the entrance to the big port city — Finedaile!</block>
+        </text>
+        <image>image_11</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AC006</id>
+        <number>CHAPTER 7</number>
+        <title>Sherid forest</title>
+    </stage>
+    
+    <stage type="choice">
+        <id>AD001</id>
+        <text>
+            <block>\t\tThe road was complicated. We had to go for several hours in order to get Sherid the same day. We entered the forest afternoon.</block>
+            <block>\t\t— And for how long we will have to go this way? — wondered Alice.\n\t\t— Looks like for 10 days, maybe more. — answered Stephen.\n\t\t— It is safer in the woods, because there are no Thandor troops here. —Ronald tried to calm down everyone. — In the forest they have nothing to do. They all sit in cities, and control the main roads.\n\t\t— Yes, he is right. — I confirmed.</block>
+            <block>\t\tThe Sherid forest was incredibly large and dense. Its size could be compared to a small country. It was hard to go through the forest, but it was safe. We often stopped, lit the fire, cooked food. Occasionally even hunted.</block>
+            <block>\t\tIt lasted a few days until we heard the noise of people in the woods.\n\t\t— Do you hear that? — Asked Stephen, who was always ahead of us.\n\t\t— No — Alice objected.\n\t\t— I do. — said Mark.</block>
+            <block>\t\t— It seems like a lot of people are talking loudly somewhere nearby. — suggested Ronald.\n\t\t— You’re right. — I agreed with Ronald. — Let's get closer.</block>
+            <block>\t\tOn the large lawn, in the middle of the forest, several dozen people set up their camp. All of them were sitting around the fire, eating and having fun.\n\t\t— Who can it be? — asked Mark.\n\t\t— Maybe Thandorians? — thought Stephen.</block>
+            <block>\t\t— No, it does not look like. — denied Ronald. — It seems to me that I have already seen them somewhere... Sure! Here is the one in the red hunting hat with a long canopy, it's Joe. He served with me at the outpost “Nothrern”.</block>
+            <block>\t\t— Are you sure? — I asked.\n\t\t— Absolutely. Come on, let’s ask them. — threw Ronald and immediately rose to his feet and came out of the bushes, where we watched them.</block>
+            <block>\t\t— Hey! Joe! Long time! — shouted Ronald.\n\t\t— Ronald! You are alive! — yelled Joe.\n\t\tAfter that, we also decided to come up.</block>
+            <block>\t\t— Oh, did you bring friends with you?! Come sit with us, too! — Joe invited.\n\t\tIt turned out that all these people came together quite by accident, a few days ago. Now they plan to go to the country of Tarnia, which is north of Manish. And through Tarnia, it's safe to get to our territories.</block>
+            <block>\t\t— Not a bad plan, I can tell you. — agreed Ronald.\n\t\t— So join us! — suddenly Joe suggested. — We'll be home in a few weeks. \n\t\t— I don’t really know. — Ronald replied uncertainly. — We had a different plan for returning home.</block>
+        </text>
+        <image>image_12</image>
+        <choice>Agree with Joe, and return home through Tarnia</choice>
+        <choice>Discard Joe’s plan</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AD002</id>
+        <text>
+            <block>\t\t— But this is a good idea! — I said. — We’ll gladly join you, if you let us.\n\t\t— Of course! You are welcome! — exclaimed Joe.</block>
+            <block>\t\tBy the way, Joe was somewhat a leader in the camp. It was he who solved the main issues.\n\t\t— Tomorrow we will go on. And now, eat and have a rest. — said Joe.</block>
+            <block>\t\tThe next morning, we picked up all our stuff and moved on. It was fun with them. They told different stories about who they were before the war, how they managed to get out of the outpost, and so on.\n\t\tWithin a few days we were on the border with Tarnia. Joe told border patrol our story and the purpose of our trip to Tarnia, after which they let us in.</block>
+            <block>\t\tIt's been a long time. We crossed the border again, and were already in our territory. At that time, it was controlled by the Manish troops, therefore, our escape succeeded. We said goodbye to each other, and scattered. Mark and Alice decided to go with me, because their homes were still in the enemy's territory.</block>
+            <block>\t\t— 23 days we were in Tarnia. — replied Mark.\n\t\t— How much have passed since the beginning of the war? — I asked.\n\t\t— 97 days...</block>
+        </text>
+        <image>image_13</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AD003</id>
+        <text>
+            <block>\t\t— Sorry, but we cannot accept your offer, Joe. — I said.\n\t\t— Let it be, then. — agreed Joe. — We plan to move on tomorrow, and now, you can stay with us.</block>
+            <block>\t\tThe next day, in the morning, we went different ways. Joe and his company went north, towards Tarnia, and we headed east.\n\t\t— What will we do when we get out of the woods? How far does it scatter? — asked Mark.\n\t\t— Far enough. — answered Stephen.</block>
+            <block>\t\t— Judging by the map, in a few days we must leave the forest. There will be a path leading to the city of Bright. And the front line is in a few hours of walk from there. — I said.\n\t\t— Oh, that's fine. — added Alice.</block>
+            <block>\t\tAfter 14 days we left the forest.\n\t\t— Here, look! The city is that way! — Stephen directed. He walked in the front and held the map.\n\t\tIn two hours, we were in front of the entrance to the largest city of Manish — Bright!</block>
+        </text>
+        <image>image_13</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AE001</id>
+        <number>CHAPTER 7</number>
+        <title>Saint—Willow</title>
+    </stage>
+    
+    <stage type="choice">
+        <id>AE002</id>
+        <text>
+            <block>\t\tSaint—Willow is a big city. An important transport hub in Manish country. In the middle of the city is the largest railway station of our country. That was our goal. We had to get to the station safely, buy tickets and go home by the train soon.</block>
+            <block>\t\tThat was one of the main cities of Manish, therefore, there were still Thandor’s troops.</block>
+            <block>\t\t— We should not attract any attention. — I told everyone, when we entered the city. — Let's split up. Mark and Alice will go to the market; they will buy some food for our way. The rest will go to the train station, and find out the train schedule.\n\t\t— Sure. — replied Mark.</block>
+            <block>\t\tSo, Stephen, Ronald and I went to the train station. There were a lot of military groups from Thandor, so we decided to go on foot. Near the railway station, two soldiers went towards us. They stopped us, explaining that this was just a routine check.\n\t\t— Where are you from? — Thandor officer asked us.</block>
+        </text>
+        <image>image_18</image>
+        <choice>To lie</choice>
+        <choice>Tell the truth</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE003</id>
+        <text>
+            <block>\t\t— We are from a small town called Stonehail, which is west of here. — I answered.\n\t\t— All three? — asked the officer.\n\t\t— Yes.</block>
+            <block>\t\t— What are you planning to do at Saint—Willow?\n\t\t— Just traveling. — Ronald helped to answer. — Any problems with that, officer?</block>
+            <block>\t\tThen they asked us for a long time, but they did not suspect anything. We were very worried about the fact that Thandor's officers were trying to control literally everything, so in the future, we were very cautious. After that, we still got to the station, and in the evening, gathered in the park with Mark and Alice, and began to discuss all the information obtained.</block>
+        </text>
+        <image>image_18</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE004</id>
+        <text>
+            <block>\t\t— We are fleeing from the outpost... — I started talking.\n\t\t— We are from Stonehail! — Ronald immediately interrupted me. — All three of us are from Stonehail!\n\t\t— What are you doing here in Saint—Willow? — asked the officer.\n\t\t— Just traveling. — answered Ronald. — Any problems?</block>
+            <block>\t\tAfter a few questions the officers left us, and we proceeded to the station.</block>
+            <block>\t\t— Well, you are a dumbass, Ralph! — Ronald told me. — Do you understand that if you were to tell them the truth, we would be immediately arrested?!\n\t\t— I agree with Ronald. — said Stephen. — You could have screwed us seriously. Good God that Ronald intervened...\n\t\t— Okay, let’s move on to the station. We still have a lot of things to do. — said Ronald.</block>
+            <block>\t\tOn our way back, I realized what I could have done, telling the officers the truth. I thought about this situation once a lot of times after that and imagined what would have happened, if at that moment Ronald did not intervene.\n\t\tSo, we did all the things that were planned. And in the evening, gathered in the park and began to discuss all of what we were able to find out.</block>
+        </text>
+        <image>image_18</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE005</id>
+        <text>
+            <block>\t\t— As it stands now. — began Ronald. — For tomorrow, there are tickets to Bright or to Camington.\n\t\t— Oh, Camington! — interrupted him Alice. — I heard that there is a blimp in this city!\n\t\t— Oh! I have never seen them with my own eyes. Only in the newspapers. — added Mark.</block>
+            <block>\t\t— And so... — continued Ronald. — We decided that we will not wait for other tickets, and we should choose a city amongst those I announced.</block>
+            <block>\t\t— Or, one can go to the Sherid Forest. Through the forest one can safely reach Bright. In the forest, there are no Thandor troops. — added Stephen.\n\t\t— Well, this is also a good option. — inserted Mark.</block>
+            <block>\t\t— So, what shall we do? — asked Alice.</block>
+        </text>
+        <image>image_18</image>
+    </stage>
+    
+    <stage type="map">
+        <id>AE006</id>
+        <image>map_4</image>
+        <choice>To Bright through the forest</choice>
+        <choice>By train to Bright</choice>
+        <choice>By train to Camington</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE007</id>
+        <text>
+            <block>\t\t— I think, it'll be safer to go through the forest. Then we will move out of the forest cover to Bright. And from there we will be already crossing the front line.\n\t\t— Well, let it be so. — agreed with me Ronald.</block>
+            <block>\t\t— Alice, did you buy everything? Are we ready to go out tomorrow? — I asked.\n\t\t— Yes, everything is ready. — she answered.</block>
+            <block>\t\tSo the next day, we left the city of Saint—Willow, and walked toward the Sherid Forest.\n\t\tThe road was rough. We had to go several hours in order to get to the forest on the same day. We entered the forest at our afternoon.</block>
+            <block>\t\t— For how long we shall go this way? — Alice wondered.\n\t\t— Probably, 4 days, maybe a little more. — answered Stephen.\n\t\t— It is safer in the woods, because there are no Thandor troops here. — Ronald tried to calm down everyone. — In the forest they have nothing to do. They all sit in cities, and control the main roads.\n\t\t— Yes, he is right. — I confirmed.</block>
+            <block>\t\tThe Sherid forest was incredibly large and dense. Its size could be compared to a small country. It was hard to go through the forest, but it was safe. We often stopped, lit the fire, cooked food. Occasionally even hunted.</block>
+            <block>\t\tOn the fifth day we left the forest. Everyone was so happy to hear, that we will be home soon.\n\t\t— Here, look! The city is that way! — Stephen directed. He walked in the front and held the map.\n\t\tIn two hours, we were in front of the entrance to the largest city of Manish — Bright!</block>
+        </text>
+        <image>image_13</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE008</id>
+        <text>
+            <block>\t\t— Yet, I think, the train will be easier. And I think, the city of Bright will be our best option.\n\t\t— Then, it is necessary to go to the train station tomorrow morning, buy tickets and leave immediately. — said Ronald.</block>
+            <block>\t\t— When is the train to Bright? — I asked.\n\t\t— At 11:40 — Stephen answered.</block>
+            <block>\t\tThus, at 11 o'clock, we were already at the train station, with tickets to Bright. By the way, there were a lot of military personnel at the station. We did not want to attract any attention, so, as long as the train did not arrive, we were scattered and pretended to be unfamiliar with each other.\n\t\tAfter an hour we sat in the train, which took us to the largest city of Manish — Bright!</block>
+        </text>
+        <image>image_17</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE009</id>
+        <text>
+            <block>\t\t— Still, the train will be easier. I think Camington would be a good option.\n\t\t— Then, it is necessary to go to the train station tomorrow morning, to buy tickets and leave immediately. — said Ronald.</block>
+            <block>\t\t— When is the train to Camington? — I asked.\n\t\t— At 10:30 — Stephen answered.</block>
+            <block>\t\tSo, at 10 o'clock, we were already at the train station, with tickets to Camington. By the way, there were a lot of military personnel at the station. We did not want to attract any attention, so, as long as the train did not arrive, we were scattered and pretended to be unfamiliar with each other.\n\t\tAfter an hour we were in a train, which took us to one of the largest cities of Manish — Camington.</block>
+        </text>
+        <image>image_17</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AB014</id>
+        <number>CHAPTER 7</number>
+        <title>Finedaile</title>
+    </stage>
+    
+    <stage type="simple">
+        <id>AF001</id>
+        <text>
+            <block>\t\tFinedaile met us very friendly. Life in this city was raging. At first glance, the war seemed to have circled around this city. By the way, in Finedaile there was the largest port of our country, which we wanted to visit very much.</block>
+            <block>\t\tAs we walked in the direction of the port, we often met people on the streets. All of them were in some kind of depressed or mournful state. When we decided to find out why in such a friendly city, such frustrated people live, one woman told us the reason for their regret.</block>
+            <block>\t\tIt turns out that two days ago, the mayor of Finedaile was killed. All the inhabitants of this city were very fond of him, because when he came to power, he restored the city literally from scratch. And they killed him, as most residents suspect, due to his radical views against the capture of the city by Thandor’s troops.</block>
+            <block>\t\t— It’s terrible! — commented Alice heard. — Is this possible?\n\t\t— Yes! — said the woman. — And on the post of mayor, the military appointed a citizen of Thandor. Now we do not even know what will happen to us...</block>
+            <block>\t\tTaking into account all that has been said, everyone understood, staying in the city for a long time is not an option, therefore, we continued to move in the direction of the port, hoping to leave the city by sea.</block>
+            <block>\t\t— Let's approach the fishermen, some of them may be planning to go east. — offered Alice as soon as we got to the territory of the port.\n\t\t— The only wonderful thought, I have heard from you. — said Ronald.</block>
+        </text>
+        <image>image_14</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AF002</id>
+        <text>
+            <block>\t\tWe have inquired almost all local fishermen. And right when we thought that the hope is gone, we stumbled upon Bob.</block>
+            <block>\t\t— I'm going to the port in Saintbridge. Where do you go? — Bob asked us.\n\t\t— Well... — I wanted to start speaking Steven.\n\t\t— That is exactly where we heading! — I interrupted him.\n\t\t— Great! Departing in an hour, then. — Bob added.</block>
+            <block>\t\tBy the way, the town of Saintbridge was not that far away from the front line. So, we went to sea with Bob on his fishing boat. The sea was calm enough, so during this trip we had a good rest and gained strength. And three days later, we arrived at Saintbridge.</block>
+        </text>
+        <image>image_16</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AF003</id>
+        <number>CHAPTER 8</number>
+        <title>Saintbridge</title>
+    </stage>
+    
+    <stage type="simple">
+        <id>AF004</id>
+        <text>
+            <block>\t\tSaint—Bridge was a rather small town on the shore. It had the same ports as Finedaile. From one of them, our acquaintance with this city began.</block>
+            <block>\t\tFirst of all, we went to the main square of the city. Saintbridge immediately seemed hostile. Everywhere the city was patrolled by the armed troops of Thandor. On the streets there were block posts. The city was literally bringing the war.</block>
+            <block>\t\tNot far from Saintbridge's main square, we heard a series of shots. All people began to run in different directions. In the lane, we used as a shelter, there was a little girl with her brother. They told us that such shooting is nothing new here.</block>
+            <block>\t\tIt turns out that, since this city was captured recently, there is a very large number of secret units of Manish. They are trying their best to push the enemy out of town.\n\t\tWhen the shots stopped, we began to discuss the fastest way to leave this city.</block>
+            <block>\t\t— Shall we go to Camington? You know, that city, which we were told about from a little girl. — offered Alice. — There's also a blimp.\n\t\t— Too long and dangerous. — answered Ronald. — For Bright, most likely, the same applies, a lot of Thandor's troops.</block>
+            <block>\t\t— I looked at the map, east of us, there is the city — Ewick. — said Stephen. — And a few kilometers away from it — the front line. So, we could go to Evik, and then, somehow, cross the front line. What do you think?</block>
+            <block>\t\t— I think it's better to go to Camington. — said Mark.\n\t\t— And I vote for Stephen's idea. — Ronald said. — There will definitely be a lot of troops in Camington and Bright. — We can be suspected and arrested.</block>
+            <block>\t\tHere it is, two against two. The thoughts were divided even, and it turns out that I had to decide again.</block>
+        </text>
+        <image>image_15</image>
+    </stage>
+    
+    <stage type="map">
+        <id>AF005</id>
+        <image>map_5</image>
+        <choice>Go to Camington</choice>
+        <choice>Go to Ewick</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AF006</id>
+        <text>
+            <block>\t\t— I agree with Alice and Mark. — I decided. — Let's go to Camington. And then to Bright.</block>
+            <block>\t\tThe next day we got on the road. We drove an old military truck that was equipped for passenger transportation. Although it was not convenient, but it was fast. The next morning, we arrived in Camington.</block>
+        </text>
+        <image>image_15</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AF008</id>
+        <text>
+            <block>\t\t— I agree with Ronald and Stephen. — I decided. — Tomorrow we shall go to Ewick.</block>
+            <block>\t\tThe next day we got on the road. To the next city we drove an old military truck that was equipped for passenger transportation. Although it was not convenient, but it was fast. By the evening of the same day, we were in Ewick.</block>
+        </text>
+        <image>image_15</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AE010</id>
+        <number>CHAPTER 8</number>
+        <title>Camington</title>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AF007</id>
+        <number>CHAPTER 9</number>
+        <title>Camington</title>
+    </stage>
+    
+    <stage type="choice">
+        <id>AH001</id>
+        <text>
+            <block>\t\tTo Camington we entered through the main entrance. The big gates welcomed us. This was, probably, the most progressive city in Manish. Not probably, but for sure!</block>
+            <block>\t\tIn this city we decided to stay for a few days. On the first day, we immediately went to the main square, from where the blimp departed. The city was extremely beautiful, so we did not hurry.</block>
+            <block>\t\tSuddenly, an old woman shouted further down the street. All people began to gather around to see what happened. Around the old woman were a crowd of military men. As we understood, they arrested her. Despite the crowds of military men, Alice rushed to help her.</block>
+            <block>\t\tShe wanted to run for a woman, but one of the soldiers grabbed her. We wanted to intervene, but one of the citizens stopped us. He explained that interference with the work of the military is punishable by arrest. Apparently, that’s why none of the bystanders interfered soldiers.</block>
+            <block>\t\t— Go ahead without me! — the last thing, she managed to shout out to us before she was arrested. Everyone was shocked. However, we had to continue our journey, even without Alice.</block>
+            <block>\t\tThe next day we went to the square, which we did not reach the last time. In less than an hour we got to the square, from which the famous blimp departed. His majesty was simply impossible to convey with words.</block>
+            <block>\t\tWhile everyone was standing and looking at him, Stephen went to find out, if it was departing to Bright.</block>
+            <block>\t\t— It does. But there is single problem... — began to speak Stephen, as soon as he returned. — The flight is scheduled in 2 days.\n\t\t— Oh no... — ​​Ronald immediately denied this idea. — We do not have that much time to wait. We need to go to Bright today.</block>
+        </text>
+        <image>image_19</image>
+        <choice>Go to Bright today</choice>
+        <choice>Go to Bright by a blimp in 2 days</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AH003</id>
+        <text>
+            <block>\t\t— I agree with Ronald. — I answered. — We do not have much time. We need to go today.\n\t\t— Okay. — all agreed.</block>
+            <block>\t\tOn the way, we often met military patrols. Each time, it reminded us that we were already near the front line. At night, we lit a fire and slept in the woods, near the road. And the next day, we were already in the largest city of Manish — Bright!</block>
+        </text>
+        <image>image_19</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AH002</id>
+        <text>
+            <block>\t\t— I think we should still wait for 2 days and utilize the blimp.\n\t\t— And why is that?! — asked Ronald.\n\t\t— We have gone a long distance, and we deserve a good rest! — I was indignant.\n\t\t— I agree. — said Stephen.</block>
+            <block>\t\t— We will stay in Camington for 2 days, and then go to Bright. And this is done deal! — I almost screamed, standing in front of Ronald.</block>
+            <block>\t\tAfter a good rest, two days later, we went to Bright on the airship. Everyone was incredibly impressed. After the flight, Mark has repeatedly mentioned this vivid event. Within half a day, we arrived in the largest city of Manish — Bright!</block>
+        </text>
+        <image>image_19</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AB009</id>
+        <number>CHAPTER 7</number>
+        <title>Military base of Thandor</title>
+    </stage>
+    
+    <stage type="choice">
+        <id>AB011</id>
+        <text>
+            <block>\t\tWhen we arrived at Leedaile, we immediately decided to find the person who would tell us in detail about Thandor's military base. And that person turned out to be an old man named Trevor. He told us about how the war in the east went, and how the enemy troops decided to form a base in their city, and also helped us with housing.</block>
+            <block>\t\t— Hmmm... And you can succeed! — said Trevor, after he listened to our plan.\n\t\t— Really? — Mark asked in amazement.\n\t\t— Indeed! If you do everything, as I tell you, it will work out! — said the old man. — So... Listen what you have to do...</block>
+            <block>\t\tAfter a long conversation, we clarified the plan, and the next day we began to make it reality. First we got to the military base through the main entrance, under the guise of the recruits from Thandor. Then, when we were heading to the headquarters of the recruits, as Trevor told us, one of the soldiers shouted to us from a distance.</block>
+            <block>\t\t— Have they spot us? — Mark said in a whisper.\n\t\tEveryone began to get nervous.\n\t\t— Run! — Ronald said loudly.</block>
+        </text>
+        <image>image_10</image>
+        <choice>Run away</choice>
+        <choice>Stop Ronald</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB013</id>
+        <text>
+            <block>\t\tObeying Ronald, we ran at once.\n\t\t— Here! — he shouted.\n\t\tWe heard that the chase after us has started.\n\t\t— We’re done! — Mark shouted in a frightened voice.</block>
+        </text>
+        <image>image_10</image>
+    </stage>
+    
+    <stage type="black">
+        <id>AB0131</id>
+        <text>
+            <block>\t\tMark was right. All of them were caught near a military base, and subsequently sent to a prisoner of war camp. And a few days later they were hanged, for a suspicion in espionage for Manish. The life of our heroes was cut short and they have never returned home...</block>
+        </text>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB012</id>
+        <text>
+            <block>\t\t— Stop! — I commanded Ronald in a very confident and strict voice. He stopped intuitively. We all came to an officer who called us. It turns out he wanted to tell us where to go next, because he immediately realized that we were newcomers.</block>
+            <block>\t\t— Sorry. Overreacted. — Ronald said, as soon as we moved away from Thandor's officer.</block>
+            <block>\t\tSoon, we passed all the procedures that Trevor described. It took us no more than an hour, after which, we were already sitting in a truck that traveled straight to the front line. After 2 days of the road, we arrived at the specified place. Night came.</block>
+            <block>\t\t— Let's go. — Ronald called for us in a whisper. — There is a forest nearby, through it, we can get to our side.</block>
+            <block>\t\tSo we did. We successfully managed to escape from the camp of the Thandor's military, and in the morning we were already in the territory under the control of our troops.</block>
+        </text>
+        <image>image_10</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB0121</id>
+        <text>
+            <block>\t\t— We did it! — screamed Stephen. — We made it!</block>
+            <block>\t\tThen, we said good—bye to each other, and scattered. Mark and Alice decided to leave with me because their homes were still in the enemy's territory. In 2 months the war ended. </block>
+            <block>\t\tGrantar, the country bordering us in the north, has intervened in our conflict, and has prevented more victims from both sides. Our territories returned under our control. And we started a new life...</block>
+        </text>
+        <image>image_23</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AF009</id>
+        <number>CHAPTER 9</number>
+        <title>The city of Ewick</title>
+    </stage>
+    
+    <stage type="choice">
+        <id>AG001</id>
+        <text>
+            <block>\t\t— Finally! We are almost home! — said Mark when we got to Ewick. It was a simple, small town. Before the war, I was here with my family, had a lot of friends, and in general, I was very fond of this city.</block>
+            <block>\t\tWhen we walked around the town, we came across my old friend, whom I had been in a strong friendship with earlier. We stayed over in his house for a night, and also told him our story. He was very surprised at how we managed to overcome such a long journey by ourselves.</block>
+            <block>\t\t— What about you settling down in Ewick forever, or at least until the war ends? — he suggested.\n\t\t— I do not even know, we need to think about everything thoroughly. — I answered.</block>
+            <block>\t\tWe did not know what we should do, so we decided to discuss everything without the presence of my friend.\n\t\t— Next night, we could have gone to our side. What do you think? — offered Ronald.\n\t\t— Perhaps we can stay? — mumbled Mark.</block>
+        </text>
+        <image>image_20</image>
+        <choice>Stay in Ewick</choice>
+        <choice>Cross the front line at night</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AG002</id>
+        <text>
+            <block>\t\t— I would actually like to stay... — I said.\n\t\t— Good for you! — exclaimed Ronald — Who wants to go with me?\n\t\t— I'll go. — said Stephen. — Sorry, Ralph.\n\t\t— We will settle too. — said Mark and Alice.</block>
+            <block>\t\tAnd they did. The next day, Stephen, along with Ronald, set off on their own way. After that, we did not see them anymore. Regarding to Mark, Alice and I, we have decided to build a new life here in Ewick...</block>
+        </text>
+        <image>image_20</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AG003</id>
+        <text>
+            <block>\t\t— I agree with Ronald. — I said.</block>
+            <block>\t\tAt night, we left my friend's house and were out on the road. A few hours later we reached the positions of the Thandor’s troops, and in the morning, were already in the territory under the control of Manish. We did it. Our journey has come to an end...</block>
+        </text>
+        <image>image_23</image>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AD004</id>
+        <number>CHAPTER 8</number>
+        <title>Almost home</title>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AH004</id>
+        <number>CHAPTER 9</number>
+        <title>Almost home</title>
+    </stage>
+    
+    <stage type="choice">
+        <id>AI001</id>
+        <text>
+            <block>\t\tBright. The largest city is Manish. Here, usually, the main events of our country took place. The industrial giant, the incredible number of inhabitants, and the country's trading center — this is one way to characterize this city. </block>
+            <block>\t\tFrom all over the country, people came here to find a better luck. By development, this city outstripped all others for several years. Because of this, Bright was much loved.</block>
+            <block>\t\t— An incredible city! — said Stephen, after a two—hour tour around one.\n\t\t— You know, I apparently made a decision. — Ronald began to speak. — I want to stay here. There is a lot of possibilities here. First it might be difficult, but then...</block>
+            <block>\t\t— Are you serious? — asked Mark.\n\t\t— Dead serious. I'm staying. — answered Ronald.\n\t\t— Can we too? — suggested Stephen.</block>
+        </text>
+        <image>image_22</image>
+        <choice>Stay in Bright</choice>
+        <choice>Cross the front line</choice>
+    </stage>
+    
+    <stage type="simple">
+        <id>AI002</id>
+        <text>
+            <block>\t\t— I do not even know... We can try. — I answered. — What do you think, Mark?\n\t\t— If you all going to stick around here, then I will too! — replied Mark.</block>
+            <block>\t\tWell, so we decided. As a result, all remained in Bright. In 2 months the war ended. Grantar, the country bordering us in the north, has intervened in our conflict, and has prevented more victims from both sides. Our territories returned under our control. And we started a new life...</block>
+        </text>
+        <image>image_22</image>
+    </stage>
+    
+    <stage type="simple">
+        <id>AI003</id>
+        <text>
+            <block>\t\t— No, I will go further. — I answered.\n\t\t— And me. — added Mark.</block>
+            <block>\t\tSo, Bright became the place where our roads separated. Ronald and Stephen stayed in Bright. Me and Mark went on the road the next night. We crossed the front line through a small forest that situated near Bright.</block>
+            <block>\t\tA few hours later we reached the positions of the Thandor troops, and in the morning, were already in the territory under the control of Manish. We made it. In 2 months the war ended. Grantar, the country bordering us in the north, has intervened in our conflict, and has prevented more victims from both sides. Our territories returned under our control. And we started a new life...</block>
+        </text>
+        <image>image_23</image>
+    </stage>
+</plot>
+

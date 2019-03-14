@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plot>
+    <stage type="chapter">
+        <id>AA000</id>
+        <next>AA001</next>
+    </stage>
+
+    <stage type="simple">
+        <id>AA001</id>
+        <next>AA002</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA002</id>
+        <next>AA003</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA003</id>
+        <next>AA004</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA004</id>
+        <next>AA005</next>
+    </stage>
+    
+    <stage type="choice">
+        <id>AA005</id>
+        <next>AA006</next>
+        <next>AA007</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA006</id>
+        <next>AA008</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA007</id>
+        <next>AA008</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA008</id>
+        <next>AA009</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA009</id>
+        <next>AA010</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA010</id>
+        <next>AA011</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA011</id>
+        <next>AA012</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA012</id>
+        <next>AA013</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA013</id>
+        <next>AA014</next>
+    </stage>
+    
+    <stage type="choice">
+        <id>AA014</id>
+        <next>AA015</next>
+        <next>AA016</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA015</id>
+        <next>AA0151</next>
+    </stage>
+    
+    <stage type="black">
+        <id>AA0151</id>
+        <next>END</next>
+    </stage>
+    
+    <stage type="choice">
+        <id>AA016</id>
+        <next>AA024</next>
+        <next>AA018</next>
+        <next>AA017</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA024</id>
+        <next>AA025</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA018</id>
+        <next>AA019</next>
+    </stage>
+    
+    
+    <stage type="simple">
+        <id>AA017</id>
+        <next>AA019</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA025</id>
+        <next>AA026</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA026</id>
+        <next>AA027</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA019</id>
+        <next>AA021</next>
+    </stage>
+    
+    <stage type="choice">
+        <id>AA021</id>
+        <next>AA022</next>
+        <next>AA027</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA022</id>
+        <next>AA0221</next>
+    </stage>
+    
+    <stage type="black">
+        <id>AA0221</id>
+        <next>END</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA027</id>
+        <next>AA028</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA028</id>
+        <next>AA029</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA029</id>
+        <next>AA0291</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA0291</id>
+        <next>AA030</next>
+    </stage>
+    
+    <stage type="map">
+        <id>AA030</id>
+        <next>AA031</next>
+        <next>AA033</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA031</id>
+        <next>AA032</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AA033</id>
+        <next>AA034</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA032</id>
+        <next>AC001</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AC001</id>
+        <next>AC002</next>
+    </stage>
+    
+    <stage type="map">
+        <id>AC002</id>
+        <next>AC004</next>
+        <next>AC003</next>
+        <next>AC005</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AC004</id>
+        <next>AC006</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AC003</id>
+        <next>AC0031</next>
+    </stage>
+    
+    <stage type="black">
+        <id>AC0031</id>
+        <next>END</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AC005</id>
+        <next>AE001</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AA034</id>
+        <next>AB001</next>
+    </stage>
+    
+    <stage type="choice">
+        <id>AB001</id>
+        <next>AB002</next>
+        <next>AB003</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB002</id>
+        <next>AB004</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB003</id>
+        <next>AB004</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB004</id>
+        <next>AB005</next>
+    </stage>
+    
+    <stage type="map">
+        <id>AB005</id>
+        <next>AB006</next>
+        <next>AB008</next>
+        <next>AB007</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB006</id>
+        <next>AE001</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB008</id>
+        <next>AB009</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB007</id>
+        <next>AB014</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AC006</id>
+        <next>AD001</next>
+    </stage>
+    
+    <stage type="choice">
+        <id>AD001</id>
+        <next>AD002</next>
+        <next>AD003</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AD002</id>
+        <next>END</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AD003</id>
+        <next>AD004</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AE001</id>
+        <next>AE002</next>
+    </stage>
+    
+    <stage type="choice">
+        <id>AE002</id>
+        <next>AE003</next>
+        <next>AE004</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE003</id>
+        <next>AE005</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE004</id>
+        <next>AE005</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE005</id>
+        <next>AE006</next>
+    </stage>
+    
+    <stage type="map">
+        <id>AE006</id>
+        <next>AE007</next>
+        <next>AE008</next>
+        <next>AE009</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE007</id>
+        <next>AD004</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE008</id>
+        <next>AD004</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AE009</id>
+        <next>AE010</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AB014</id>
+        <next>AF001</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AF001</id>
+        <next>AF002</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AF002</id>
+        <next>AF003</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AF003</id>
+        <next>AF004</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AF004</id>
+        <next>AF005</next>
+    </stage>
+    
+    <stage type="map">
+        <id>AF005</id>
+        <next>AF006</next>
+        <next>AF008</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AF006</id>
+        <next>AF007</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AF008</id>
+        <next>AF009</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AE010</id>
+        <next>AH001</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AF007</id>
+        <next>AH001</next>
+    </stage>
+    
+    <stage type="choice">
+        <id>AH001</id>
+        <next>AH003</next>
+        <next>AH002</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AH003</id>
+        <next>AH004</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AH002</id>
+        <next>AH004</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AB009</id>
+        <next>AB011</next>
+    </stage>
+    
+    <stage type="choice">
+        <id>AB011</id>
+        <next>AB013</next>
+        <next>AB012</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB013</id>
+        <next>AB0131</next>
+    </stage>
+    
+    <stage type="black">
+        <id>AB0131</id>
+        <next>END</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB012</id>
+        <next>AB0121</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AB0121</id>
+        <next>END</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AF009</id>
+        <next>AG001</next>
+    </stage>
+    
+    <stage type="choice">
+        <id>AG001</id>
+        <next>AG002</next>
+        <next>AG003</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AG002</id>
+        <next>END</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AG003</id>
+        <next>END</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AD004</id>
+        <next>AI001</next>
+    </stage>
+    
+    <stage type="chapter">
+        <id>AH004</id>
+        <next>AI001</next>
+    </stage>
+    
+    <stage type="choice">
+        <id>AI001</id>
+        <next>AI002</next>
+        <next>AI003</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AI002</id>
+        <next>END</next>
+    </stage>
+    
+    <stage type="simple">
+        <id>AI003</id>
+        <next>END</next>
+    </stage>
+</plot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

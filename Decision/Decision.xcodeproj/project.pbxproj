@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		DA06590922387B3000E6CB38 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06590822387B3000E6CB38 /* ChapterViewController.swift */; };
 		DA06590B2238853100E6CB38 /* BlackScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06590A2238853100E6CB38 /* BlackScreenViewController.swift */; };
+		DA1CDB7E2239FA0F00609873 /* plot.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7A2239FA0E00609873 /* plot.xml */; };
+		DA1CDB7F2239FA0F00609873 /* scenario_en.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7B2239FA0E00609873 /* scenario_en.xml */; };
+		DA1CDB802239FA0F00609873 /* scenario_uk.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7C2239FA0F00609873 /* scenario_uk.xml */; };
+		DA1CDB812239FA0F00609873 /* scenario_ru.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7D2239FA0F00609873 /* scenario_ru.xml */; };
 		DA32B19E2238418C00E817BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32B19D2238418C00E817BC /* AppDelegate.swift */; };
 		DA32B1A02238418C00E817BC /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32B19F2238418C00E817BC /* DisclaimerViewController.swift */; };
 		DA32B1A32238418C00E817BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA32B1A12238418C00E817BC /* Main.storyboard */; };
 		DA32B1A52238418C00E817BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA32B1A42238418C00E817BC /* Assets.xcassets */; };
 		DA32B1A82238418C00E817BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA32B1A62238418C00E817BC /* LaunchScreen.storyboard */; };
 		DA407AE32239C4C20042770E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA407AE22239C4C20042770E /* MapViewController.swift */; };
+		DA407AE62239F87A0042770E /* PlotXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA407AE52239F87A0042770E /* PlotXMLParser.swift */; };
 		DA9BFEF22238A92A00A8035C /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BFEF12238A92A00A8035C /* EndGameViewController.swift */; };
 		DACC8AAC223961F800BD5804 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC8AAB223961F800BD5804 /* LanguageViewController.swift */; };
 		DACC8AAE22396AE800BD5804 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC8AAD22396AE800BD5804 /* SettingsViewController.swift */; };
@@ -24,6 +29,10 @@
 /* Begin PBXFileReference section */
 		DA06590822387B3000E6CB38 /* ChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
 		DA06590A2238853100E6CB38 /* BlackScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackScreenViewController.swift; sourceTree = "<group>"; };
+		DA1CDB7A2239FA0E00609873 /* plot.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plot.xml; sourceTree = "<group>"; };
+		DA1CDB7B2239FA0E00609873 /* scenario_en.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scenario_en.xml; sourceTree = "<group>"; };
+		DA1CDB7C2239FA0F00609873 /* scenario_uk.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scenario_uk.xml; sourceTree = "<group>"; };
+		DA1CDB7D2239FA0F00609873 /* scenario_ru.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scenario_ru.xml; sourceTree = "<group>"; };
 		DA32B19A2238418C00E817BC /* Decision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA32B19D2238418C00E817BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA32B19F2238418C00E817BC /* DisclaimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +41,7 @@
 		DA32B1A72238418C00E817BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA32B1A92238418C00E817BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA407AE22239C4C20042770E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DA407AE52239F87A0042770E /* PlotXMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotXMLParser.swift; sourceTree = "<group>"; };
 		DA9BFEF12238A92A00A8035C /* EndGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
 		DACC8AAB223961F800BD5804 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
 		DACC8AAD22396AE800BD5804 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +78,8 @@
 		DA32B19C2238418C00E817BC /* Decision */ = {
 			isa = PBXGroup;
 			children = (
+				DA407AE72239F9610042770E /* xml */,
+				DA407AE42239F7730042770E /* Components */,
 				DA32B1AF22386B1000E817BC /* Views */,
 				DA32B1B022386B5B00E817BC /* Supporting Files */,
 				DA32B1A12238418C00E817BC /* Main.storyboard */,
@@ -99,6 +111,25 @@
 				DA32B1A42238418C00E817BC /* Assets.xcassets */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA407AE42239F7730042770E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DA407AE52239F87A0042770E /* PlotXMLParser.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DA407AE72239F9610042770E /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				DA1CDB7A2239FA0E00609873 /* plot.xml */,
+				DA1CDB7B2239FA0E00609873 /* scenario_en.xml */,
+				DA1CDB7D2239FA0F00609873 /* scenario_ru.xml */,
+				DA1CDB7C2239FA0F00609873 /* scenario_uk.xml */,
+			);
+			path = xml;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,8 +191,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1CDB7F2239FA0F00609873 /* scenario_en.xml in Resources */,
 				DA32B1A82238418C00E817BC /* LaunchScreen.storyboard in Resources */,
 				DA32B1A52238418C00E817BC /* Assets.xcassets in Resources */,
+				DA1CDB802239FA0F00609873 /* scenario_uk.xml in Resources */,
+				DA1CDB7E2239FA0F00609873 /* plot.xml in Resources */,
+				DA1CDB812239FA0F00609873 /* scenario_ru.xml in Resources */,
 				DA32B1A32238418C00E817BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +213,7 @@
 				DACC8AAE22396AE800BD5804 /* SettingsViewController.swift in Sources */,
 				DACC8AAC223961F800BD5804 /* LanguageViewController.swift in Sources */,
 				DA407AE32239C4C20042770E /* MapViewController.swift in Sources */,
+				DA407AE62239F87A0042770E /* PlotXMLParser.swift in Sources */,
 				DA9BFEF22238A92A00A8035C /* EndGameViewController.swift in Sources */,
 				DA06590B2238853100E6CB38 /* BlackScreenViewController.swift in Sources */,
 				DA06590922387B3000E6CB38 /* ChapterViewController.swift in Sources */,
