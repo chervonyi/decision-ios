@@ -21,7 +21,7 @@ class StageViewController: UIViewController {
 
         setUIProperties()
         
-        PlotXMLParser.loadPlotFromXML()
+        Plot.instance.loadXMLFiles()
     }
 
    

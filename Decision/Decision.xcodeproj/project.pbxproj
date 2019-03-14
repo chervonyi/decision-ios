@@ -10,6 +10,8 @@
 		DA06590922387B3000E6CB38 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06590822387B3000E6CB38 /* ChapterViewController.swift */; };
 		DA06590B2238853100E6CB38 /* BlackScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06590A2238853100E6CB38 /* BlackScreenViewController.swift */; };
 		DA10050A223AD2EF007ADD90 /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA100509223AD2EF007ADD90 /* Stage.swift */; };
+		DA10050C223AE871007ADD90 /* ScenarioXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10050B223AE871007ADD90 /* ScenarioXMLParser.swift */; };
+		DA10050E223B0755007ADD90 /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10050D223B0755007ADD90 /* Plot.swift */; };
 		DA1CDB7E2239FA0F00609873 /* plot.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7A2239FA0E00609873 /* plot.xml */; };
 		DA1CDB7F2239FA0F00609873 /* scenario_en.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7B2239FA0E00609873 /* scenario_en.xml */; };
 		DA1CDB802239FA0F00609873 /* scenario_uk.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7C2239FA0F00609873 /* scenario_uk.xml */; };
@@ -31,6 +33,8 @@
 		DA06590822387B3000E6CB38 /* ChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
 		DA06590A2238853100E6CB38 /* BlackScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackScreenViewController.swift; sourceTree = "<group>"; };
 		DA100509223AD2EF007ADD90 /* Stage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage.swift; sourceTree = "<group>"; };
+		DA10050B223AE871007ADD90 /* ScenarioXMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioXMLParser.swift; sourceTree = "<group>"; };
+		DA10050D223B0755007ADD90 /* Plot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plot.swift; sourceTree = "<group>"; };
 		DA1CDB7A2239FA0E00609873 /* plot.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plot.xml; sourceTree = "<group>"; };
 		DA1CDB7B2239FA0E00609873 /* scenario_en.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scenario_en.xml; sourceTree = "<group>"; };
 		DA1CDB7C2239FA0F00609873 /* scenario_uk.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scenario_uk.xml; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				DA100509223AD2EF007ADD90 /* Stage.swift */,
+				DA10050D223B0755007ADD90 /* Plot.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				DA407AE52239F87A0042770E /* PlotXMLParser.swift */,
+				DA10050B223AE871007ADD90 /* ScenarioXMLParser.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -219,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA10050E223B0755007ADD90 /* Plot.swift in Sources */,
 				DA32B1A02238418C00E817BC /* DisclaimerViewController.swift in Sources */,
 				DA32B19E2238418C00E817BC /* AppDelegate.swift in Sources */,
 				DACC8AAE22396AE800BD5804 /* SettingsViewController.swift in Sources */,
@@ -227,6 +234,7 @@
 				DA407AE62239F87A0042770E /* PlotXMLParser.swift in Sources */,
 				DA9BFEF22238A92A00A8035C /* EndGameViewController.swift in Sources */,
 				DA10050A223AD2EF007ADD90 /* Stage.swift in Sources */,
+				DA10050C223AE871007ADD90 /* ScenarioXMLParser.swift in Sources */,
 				DA06590B2238853100E6CB38 /* BlackScreenViewController.swift in Sources */,
 				DA06590922387B3000E6CB38 /* ChapterViewController.swift in Sources */,
 				DACC8AB02239788200BD5804 /* StageViewController.swift in Sources */,

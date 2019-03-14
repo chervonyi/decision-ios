@@ -10,12 +10,12 @@ import Foundation
 
 class PlotXMLParser: NSObject, XMLParserDelegate {
     
-    static var plot = [String : Stage]()
-    var accessToData = false
-    var stage: Stage!
-    var currentElement: String!
+    private static var plot = [String:Stage]()
+    private var accessToData = false
+    private var stage: Stage!
+    private var currentElement: String!
     
-    static func loadPlotFromXML() {
+    static func loadPlotFromXML() -> [String:Stage] {
         let path = Bundle.main.path(forResource: "plot", ofType: "xml")
         if path != nil {
             if let parser = XMLParser(contentsOf: NSURL(fileURLWithPath: path!) as URL) {
@@ -23,9 +23,10 @@ class PlotXMLParser: NSObject, XMLParserDelegate {
                 parser.delegate = deviceParser
                 parser.parse()
                 
-                // TODO: Set loaded plot from xml to Plot class
+                return PlotXMLParser.plot
             }
         }
+        return [String:Stage]()
     }
     
     func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String]) {
@@ -38,8 +39,6 @@ class PlotXMLParser: NSObject, XMLParserDelegate {
             accessToData = true
             currentElement = elementName
         }
-        
-        
     }
     
     func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
