@@ -17,13 +17,17 @@ class BlackScreenViewController: UIViewController {
 
         let stage = Plot.instance.getActiveStage()
         
-        labelText.text = stage.text.first!
+        var text = stage.text.first!
+        text = text.replacingOccurrences(of: "\\n", with: "\n")
+        text = text.replacingOccurrences(of: "\\t\\t", with: "\t")
         
-        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ChapterViewController.tapScreen))
-        labelText.addGestureRecognizer(gestureRecognizer)
+        labelText.text = text
+        
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(BlackScreenViewController.touchScreen))
+        self.view.addGestureRecognizer(gestureRecognizer)
     }
     
-    @objc func tapScreen(gestureRecognizer: UIGestureRecognizer) {
+    @objc func touchScreen(gestureRecognizer: UIGestureRecognizer) {
         performSegue(withIdentifier: "toEnd", sender: nil)
     }
 }

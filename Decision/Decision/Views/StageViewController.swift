@@ -60,10 +60,13 @@ class StageViewController: UIViewController {
 
     func changeTextBox() {
         var text = stage.text[numberOfBlock]
+        numberOfBlock += 1
+        
+        // Fix problems with formatting of scenarion.xml
         text = text.replacingOccurrences(of: "\\n", with: "\n")
         text = text.replacingOccurrences(of: "\\t\\t", with: "\t")
         mainBlockText.text = text
-        numberOfBlock += 1
+        
         
         if numberOfBlock == stage.text.count && stage.type == Stage.Types.CHOICE {
             blockChoice1.isHidden = false
