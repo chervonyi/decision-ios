@@ -140,7 +140,8 @@
                         <viewLayoutGuide key="safeArea" id="dQL-Ji-Bam"/>
                     </view>
                     <connections>
-                        <segue destination="NAd-3f-at3" kind="show" identifier="toRestart" animates="NO" id="cxC-fh-WAI"/>
+                        <outlet property="labelText" destination="wph-1F-j8x" id="tCi-cI-G5x"/>
+                        <segue destination="NAd-3f-at3" kind="show" identifier="toEnd" animates="NO" id="cxC-fh-WAI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="87c-HJ-9ZX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -421,7 +422,7 @@
                         <outlet property="mainBlockText" destination="nOR-QS-J0q" id="wrO-K5-5id"/>
                         <segue destination="l9y-Ni-yrs" kind="show" identifier="toMap" animates="NO" id="gnQ-SY-c40"/>
                         <segue destination="7fw-JW-rGa" kind="show" identifier="toBlackScreen" animates="NO" id="enr-Hp-ozx"/>
-                        <segue destination="NAd-3f-at3" kind="show" identifier="toRestart" animates="NO" id="lhJ-eU-ZxW"/>
+                        <segue destination="NAd-3f-at3" kind="show" identifier="toEnd" animates="NO" id="lhJ-eU-ZxW"/>
                         <segue destination="O9I-hA-vuN" kind="show" identifier="toSettings" animates="NO" id="K0K-LB-3Ag"/>
                     </connections>
                 </viewController>
@@ -498,9 +499,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="012-LX-RjE"/>
-        <segue reference="5mV-bw-7Rr"/>
+        <segue reference="zfg-iX-XBg"/>
         <segue reference="K0K-LB-3Ag"/>
-        <segue reference="cxC-fh-WAI"/>
+        <segue reference="lhJ-eU-ZxW"/>
         <segue reference="hHl-ya-Jqi"/>
         <segue reference="Cyf-mo-Gpz"/>
     </inferredMetricsTieBreakers>
