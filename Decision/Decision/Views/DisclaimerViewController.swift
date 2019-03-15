@@ -12,14 +12,28 @@ class DisclaimerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        Plot.instance.loadXMLFiles()
+        
+        // TODO - Load last stage from memory (Settings.swift)
+        
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(DisclaimerViewController.tapScreen))
+        self.view.addGestureRecognizer(gestureRecognizer)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc func tapScreen(gestureRecognizer: UIGestureRecognizer) {
+        let firstStage = Plot.instance.getStage(by: Plot.FIRST_STAGE)
+        
+        switch firstStage.type! {
+        case Stage.Types.SIMPLE, Stage.Types.CHOICE: performSegue(withIdentifier: "toStage", sender: nil)
+        case Stage.Types.CHAPTER: performSegue(withIdentifier: "toChapter", sender: nil)
+        case Stage.Types.BLACK_SCREEN: performSegue(withIdentifier: "toBlackScreen", sender: nil)
+        case Stage.Types.MAP: performSegue(withIdentifier: "toMap", sender: nil)
+        }
     }
-
+    
+    
 
 }
 

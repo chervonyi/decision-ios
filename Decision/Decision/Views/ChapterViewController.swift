@@ -10,26 +10,33 @@ import UIKit
 
 class ChapterViewController: UIViewController {
 
+    @IBOutlet weak var labelNumber: UILabel!
+    @IBOutlet weak var labelTitle: UILabel!
+    
+    private var stage: Stage! {
+        didSet {
+            labelNumber.text = stage.number
+            labelTitle.text = stage.title
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        stage = Plot.instance.getActiveStage()
+        
+        print("ChapterView - \(stage.ID!)")
+        
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ChapterViewController.tapScreen))
+        self.view.addGestureRecognizer(gestureRecognizer)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @objc func tapScreen(gestureRecognizer: UIGestureRecognizer) {
+        let nextStage = Plot.instance.getStage(by: stage.nextID!)
+        
+        if nextStage.type == Stage.Types.SIMPLE ||
+            nextStage.type == Stage.Types.CHOICE {
+            performSegue(withIdentifier: "toStage", sender: nil)
+        }
     }
-    */
-
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CSs-kB-Sel">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -61,10 +61,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="oM1-Zo-eeq" kind="show" identifier="toChapter" animates="NO" id="RAG-WM-5Yy"/>
+                        <segue destination="l9y-Ni-yrs" kind="show" identifier="toMap" animates="NO" id="GlZ-qi-gIg"/>
+                        <segue destination="CSs-kB-Sel" kind="show" identifier="toStage" animates="NO" id="zfg-iX-XBg"/>
+                        <segue destination="7fw-JW-rGa" kind="show" identifier="toBlackScreen" animates="NO" id="hHl-ya-Jqi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.40000000000001" y="133.00492610837438"/>
+            <point key="canvasLocation" x="-28" y="132"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="I23-1Q-6rY">
@@ -99,10 +105,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SxO-F0-7Fv"/>
                     </view>
+                    <connections>
+                        <outlet property="labelNumber" destination="Kaa-YX-mct" id="Ncu-2D-Aed"/>
+                        <outlet property="labelTitle" destination="rmC-KA-33G" id="OSE-oa-Fik"/>
+                        <segue destination="CSs-kB-Sel" kind="show" identifier="toStage" animates="NO" id="5mV-bw-7Rr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkd-sq-FeS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="991" y="133"/>
+            <point key="canvasLocation" x="814" y="-584"/>
         </scene>
         <!--Black Screen View Controller-->
         <scene sceneID="zJ0-jU-nB4">
@@ -128,10 +139,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dQL-Ji-Bam"/>
                     </view>
+                    <connections>
+                        <segue destination="NAd-3f-at3" kind="show" identifier="toRestart" animates="NO" id="cxC-fh-WAI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="87c-HJ-9ZX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1783" y="132"/>
+            <point key="canvasLocation" x="2425" y="913"/>
         </scene>
         <!--End Game View Controller-->
         <scene sceneID="0NY-lL-2aI">
@@ -182,11 +196,12 @@
                     </view>
                     <connections>
                         <outlet property="buttonRestart" destination="LCe-hT-7Kb" id="3JA-DV-WK2"/>
+                        <segue destination="oM1-Zo-eeq" kind="show" identifier="toChapter" animates="NO" id="gTq-Jz-4wc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oar-U3-il8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2557.5999999999999" y="131.52709359605913"/>
+            <point key="canvasLocation" x="814" y="875"/>
         </scene>
         <!--Language View Controller-->
         <scene sceneID="rMt-33-dGE">
@@ -252,11 +267,13 @@
                         <outlet property="buttonLanguageEng" destination="HUh-lk-rph" id="AHp-fS-tUZ"/>
                         <outlet property="buttonLanguageRus" destination="0Y8-gM-eSe" id="hc3-jp-AGr"/>
                         <outlet property="buttonLanguageUkr" destination="Wc2-2B-wbt" id="KNs-jT-IDt"/>
+                        <segue destination="CSs-kB-Sel" kind="show" identifier="toStage" animates="NO" id="nSN-PJ-LXk"/>
+                        <segue destination="l9y-Ni-yrs" kind="show" identifier="toMap" animates="NO" id="012-LX-RjE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F9J-n8-ZHJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3334" y="132"/>
+            <point key="canvasLocation" x="4050" y="132"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="xW8-v3-7OJ">
@@ -322,11 +339,13 @@
                         <outlet property="buttonChangeLanguage" destination="fdU-c4-b04" id="Lg9-5i-Naa"/>
                         <outlet property="buttonContinue" destination="HvE-40-1dr" id="T3h-yw-Rtk"/>
                         <outlet property="buttonRestart" destination="xLv-6B-yra" id="xu9-Mu-qvs"/>
+                        <segue destination="dvb-AR-XSj" kind="show" identifier="toLanguage" animates="NO" id="eCv-V7-2mD"/>
+                        <segue destination="oM1-Zo-eeq" kind="show" identifier="toChapter" animates="NO" id="Cyf-mo-Gpz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ggt-rS-xJW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4116" y="133"/>
+            <point key="canvasLocation" x="4050" y="-584"/>
         </scene>
         <!--Stage View Controller-->
         <scene sceneID="Stc-iY-qBm">
@@ -400,11 +419,15 @@
                         <outlet property="blockChoice2" destination="t6T-hL-SVU" id="pAn-7Z-tph"/>
                         <outlet property="blockChoice3" destination="LTa-jJ-66N" id="JPk-3k-MTl"/>
                         <outlet property="mainBlockText" destination="nOR-QS-J0q" id="wrO-K5-5id"/>
+                        <segue destination="l9y-Ni-yrs" kind="show" identifier="toMap" animates="NO" id="gnQ-SY-c40"/>
+                        <segue destination="7fw-JW-rGa" kind="show" identifier="toBlackScreen" animates="NO" id="enr-Hp-ozx"/>
+                        <segue destination="NAd-3f-at3" kind="show" identifier="toRestart" animates="NO" id="lhJ-eU-ZxW"/>
+                        <segue destination="O9I-hA-vuN" kind="show" identifier="toSettings" animates="NO" id="K0K-LB-3Ag"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="61W-KE-9cg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4945" y="132"/>
+            <point key="canvasLocation" x="2426" y="132"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="OEH-Xu-2WV">
@@ -460,15 +483,25 @@
                         <outlet property="blockChoice1" destination="HpT-fP-SCr" id="l5I-ys-der"/>
                         <outlet property="blockChoice2" destination="rg8-To-tBp" id="Ry9-Wy-peZ"/>
                         <outlet property="blockChoice3" destination="fcn-kc-h25" id="6B9-L7-e5U"/>
+                        <segue destination="CSs-kB-Sel" kind="show" identifier="toStage" animates="NO" id="Had-7w-dws"/>
+                        <segue destination="O9I-hA-vuN" kind="show" identifier="toSettings" animates="NO" id="t4Q-Mh-LHx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wmS-8Q-G6G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5735" y="133"/>
+            <point key="canvasLocation" x="2426" y="-584"/>
         </scene>
     </scenes>
     <resources>
         <image name="image_0" width="1000" height="1000"/>
         <image name="map_1" width="800" height="1461"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="012-LX-RjE"/>
+        <segue reference="5mV-bw-7Rr"/>
+        <segue reference="K0K-LB-3Ag"/>
+        <segue reference="cxC-fh-WAI"/>
+        <segue reference="hHl-ya-Jqi"/>
+        <segue reference="Cyf-mo-Gpz"/>
+    </inferredMetricsTieBreakers>
 </document>
