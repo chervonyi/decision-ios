@@ -17,22 +17,17 @@ class EndGameViewController: UIViewController {
 
         buttonRestart.layer.masksToBounds = true
         buttonRestart.layer.cornerRadius = 5
+        
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(EndGameViewController.onTouchRestart))
+        buttonRestart.addGestureRecognizer(gestureRecognizer)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @objc func onTouchRestart(gestureRecognizer: UITapGestureRecognizer) {
+        Plot.instance.restart()
+        let firstStage = Plot.instance.getActiveStage()
+        
+        if firstStage.type == Stage.Types.CHAPTER {
+            performSegue(withIdentifier: "toChapter", sender: nil)
+        }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
