@@ -14,16 +14,62 @@ class StageViewController: UIViewController {
     @IBOutlet weak var blockChoice1: UILabel!
     @IBOutlet weak var blockChoice2: UILabel!
     @IBOutlet weak var blockChoice3: UILabel!
+    @IBOutlet weak var backgroundImage: UIImageView!
     
+    private var numberOfBlock = 0
+    
+    private var stage: Stage! {
+        didSet {
+            numberOfBlock = 0
+            changeTextBox()
+            
+            backgroundImage.image = UIImage(named: stage.image!)
+            
+            blockChoice1.isHidden = true
+            blockChoice2.isHidden = true
+            blockChoice3.isHidden = true
+            
+            if stage.type == Stage.Types.CHOICE {
+                blockChoice1.text = stage.choices[0]
+                blockChoice2.text = stage.choices[1]
+                
+                if stage.hasThreeChoices {  blockChoice3.text = stage.choices[2] }
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setUIProperties()
         
+        stage = Plot.instance.getActiveStage()
+        
+        var gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(StageViewController.touchMainTextBlock))
+        mainBlockText.addGestureRecognizer(gestureRecognizer)
+        
+        gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(StageViewController.touchChoice1))
+        blockChoice1.addGestureRecognizer(gestureRecognizer)
+        
+        gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(StageViewController.touchChoice2))
+        blockChoice2.addGestureRecognizer(gestureRecognizer)
+        
+        gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(StageViewController.touchChoice3))
+        blockChoice3.addGestureRecognizer(gestureRecognizer)
     }
 
-   
+    func changeTextBox() {
+        mainBlockText.text = stage.text[numberOfBlock]
+        numberOfBlock += 1
+        
+        if numberOfBlock == stage.text.count && stage.type == Stage.Types.CHOICE {
+            blockChoice1.isHidden = false
+            blockChoice2.isHidden = false
+            
+            if stage.hasThreeChoices { blockChoice3.isHidden = false }
+        }
+    }
+    
     func setUIProperties() {
         // Set padding
         mainBlockText.padding =  UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
@@ -44,18 +90,46 @@ class StageViewController: UIViewController {
         blockChoice1.numberOfLines = 0
         blockChoice2.numberOfLines = 0
         blockChoice3.numberOfLines = 0
-        
-        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(StageViewController.touchMainTextBlock))
-        mainBlockText.addGestureRecognizer(gestureRecognizer)
     }
     
     
     @objc func touchMainTextBlock(gestureRecognizer: UIGestureRecognizer) {
-        mainBlockText.text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n\t\tLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        
+        if numberOfBlock < stage.text.count {
+            changeTextBox()
+        } else if numberOfBlock == stage.text.count && stage.type == Stage.Types.SIMPLE {
+            moveTo(next: stage.nextID!)
+        }
         
     }
     
+    @objc func touchChoice1(gestureRecognizer: UIGestureRecognizer) {
+        moveTo(next: stage.nextIDForChoices[0])
+    }
     
+    @objc func touchChoice2(gestureRecognizer: UIGestureRecognizer) {
+        moveTo(next: stage.nextIDForChoices[1])
+    }
+    
+    @objc func touchChoice3(gestureRecognizer: UIGestureRecognizer) {
+        moveTo(next: stage.nextIDForChoices[0])
+    }
+    
+    func moveTo(next stageID: String) {
+        
+        if stageID == "END" {
+            performSegue(withIdentifier: "toEnd", sender: nil)
+        }
+        
+        let nextStage = Plot.instance.getStage(by: stageID)
+        
+        switch nextStage.type! {
+        case Stage.Types.SIMPLE, Stage.Types.CHOICE: stage = nextStage
+        case Stage.Types.MAP: performSegue(withIdentifier: "toMap", sender: nil)
+        case Stage.Types.CHAPTER: performSegue(withIdentifier: "toChapter", sender: nil)
+        case Stage.Types.BLACK_SCREEN: performSegue(withIdentifier: "toBlackScreen", sender: nil)
+        }
+    }
 }
 
 

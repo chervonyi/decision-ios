@@ -25,8 +25,6 @@ class ChapterViewController: UIViewController {
 
         stage = Plot.instance.getActiveStage()
         
-        print("ChapterView - \(stage.ID!)")
-        
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ChapterViewController.tapScreen))
         self.view.addGestureRecognizer(gestureRecognizer)
     }

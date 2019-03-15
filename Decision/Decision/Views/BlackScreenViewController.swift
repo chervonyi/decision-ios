@@ -22,7 +22,6 @@ class BlackScreenViewController: UIViewController {
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ChapterViewController.tapScreen))
         labelText.addGestureRecognizer(gestureRecognizer)
     }
-
     
     @objc func tapScreen(gestureRecognizer: UIGestureRecognizer) {
         performSegue(withIdentifier: "toEnd", sender: nil)

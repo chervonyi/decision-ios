@@ -35,6 +35,11 @@ class Stage {
         
     }
     
+    var hasThreeChoices: Bool {
+        return choices.count == 3
+    }
+    
+    
     func getType(from string: String) -> Types? {
         switch string {
             case "simple": return Types.SIMPLE

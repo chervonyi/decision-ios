@@ -416,6 +416,7 @@
                         <viewLayoutGuide key="safeArea" id="IL3-kP-mwp"/>
                     </view>
                     <connections>
+                        <outlet property="backgroundImage" destination="yjW-Oc-xNA" id="6ef-9W-WFa"/>
                         <outlet property="blockChoice1" destination="KFh-dR-INW" id="11x-jK-bAz"/>
                         <outlet property="blockChoice2" destination="t6T-hL-SVU" id="pAn-7Z-tph"/>
                         <outlet property="blockChoice3" destination="LTa-jJ-66N" id="JPk-3k-MTl"/>
@@ -424,6 +425,7 @@
                         <segue destination="7fw-JW-rGa" kind="show" identifier="toBlackScreen" animates="NO" id="enr-Hp-ozx"/>
                         <segue destination="NAd-3f-at3" kind="show" identifier="toEnd" animates="NO" id="lhJ-eU-ZxW"/>
                         <segue destination="O9I-hA-vuN" kind="show" identifier="toSettings" animates="NO" id="K0K-LB-3Ag"/>
+                        <segue destination="oM1-Zo-eeq" kind="show" identifier="toChapter" animates="NO" id="Yfh-Ue-fE5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="61W-KE-9cg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -498,11 +500,11 @@
         <image name="map_1" width="800" height="1461"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="012-LX-RjE"/>
+        <segue reference="gnQ-SY-c40"/>
         <segue reference="zfg-iX-XBg"/>
         <segue reference="K0K-LB-3Ag"/>
         <segue reference="lhJ-eU-ZxW"/>
-        <segue reference="hHl-ya-Jqi"/>
-        <segue reference="Cyf-mo-Gpz"/>
+        <segue reference="enr-Hp-ozx"/>
+        <segue reference="Yfh-Ue-fE5"/>
     </inferredMetricsTieBreakers>
 </document>
