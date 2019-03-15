@@ -16,6 +16,18 @@ class Plot {
     
     static let FIRST_STAGE = "AA000"
     
+    private var _startStage: String?
+    
+    var startStage: String {
+        get {
+            return _startStage ?? Plot.FIRST_STAGE
+        }
+        
+        set {
+            _startStage = newValue
+        }
+    }
+    
     private(set) var lastStageId: String! = Plot.FIRST_STAGE
     
     func loadXMLFiles() {
@@ -26,6 +38,7 @@ class Plot {
     
     func getStage(by id: String) -> Stage {
         lastStageId = id
+        Settings.lastStage = id
         return vault[id] ?? Stage()
     }
     

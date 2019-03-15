@@ -16,6 +16,7 @@
 		DA1CDB7F2239FA0F00609873 /* scenario_en.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7B2239FA0E00609873 /* scenario_en.xml */; };
 		DA1CDB802239FA0F00609873 /* scenario_uk.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7C2239FA0F00609873 /* scenario_uk.xml */; };
 		DA1CDB812239FA0F00609873 /* scenario_ru.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA1CDB7D2239FA0F00609873 /* scenario_ru.xml */; };
+		DA2BE80A223C614800B8DD3F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2BE809223C614800B8DD3F /* Settings.swift */; };
 		DA32B19E2238418C00E817BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32B19D2238418C00E817BC /* AppDelegate.swift */; };
 		DA32B1A02238418C00E817BC /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32B19F2238418C00E817BC /* DisclaimerViewController.swift */; };
 		DA32B1A32238418C00E817BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA32B1A12238418C00E817BC /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		DA1CDB7B2239FA0E00609873 /* scenario_en.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scenario_en.xml; sourceTree = "<group>"; };
 		DA1CDB7C2239FA0F00609873 /* scenario_uk.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scenario_uk.xml; sourceTree = "<group>"; };
 		DA1CDB7D2239FA0F00609873 /* scenario_ru.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scenario_ru.xml; sourceTree = "<group>"; };
+		DA2BE809223C614800B8DD3F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		DA32B19A2238418C00E817BC /* Decision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA32B19D2238418C00E817BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA32B19F2238418C00E817BC /* DisclaimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			children = (
 				DA407AE52239F87A0042770E /* PlotXMLParser.swift */,
 				DA10050B223AE871007ADD90 /* ScenarioXMLParser.swift */,
+				DA2BE809223C614800B8DD3F /* Settings.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				DA32B1A02238418C00E817BC /* DisclaimerViewController.swift in Sources */,
 				DA32B19E2238418C00E817BC /* AppDelegate.swift in Sources */,
 				DACC8AAE22396AE800BD5804 /* SettingsViewController.swift in Sources */,
+				DA2BE80A223C614800B8DD3F /* Settings.swift in Sources */,
 				DACC8AAC223961F800BD5804 /* LanguageViewController.swift in Sources */,
 				DA407AE32239C4C20042770E /* MapViewController.swift in Sources */,
 				DA407AE62239F87A0042770E /* PlotXMLParser.swift in Sources */,

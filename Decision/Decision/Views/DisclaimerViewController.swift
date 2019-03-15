@@ -15,7 +15,8 @@ class DisclaimerViewController: UIViewController {
         
         Plot.instance.loadXMLFiles()
         
-        // TODO - Load last stage from memory (Settings.swift)
+        // Load last stage from memory
+        Plot.instance.startStage = Settings.lastStage
         
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(DisclaimerViewController.tapScreen))
         self.view.addGestureRecognizer(gestureRecognizer)
@@ -23,7 +24,7 @@ class DisclaimerViewController: UIViewController {
     }
     
     @objc func tapScreen(gestureRecognizer: UIGestureRecognizer) {
-        let firstStage = Plot.instance.getStage(by: Plot.FIRST_STAGE)
+        let firstStage = Plot.instance.getStage(by: Plot.instance.startStage)
         
         switch firstStage.type! {
         case Stage.Types.SIMPLE, Stage.Types.CHOICE: performSegue(withIdentifier: "toStage", sender: nil)
