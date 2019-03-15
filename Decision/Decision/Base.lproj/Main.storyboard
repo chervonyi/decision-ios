@@ -444,24 +444,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Vmj-73-EaL">
-                                <rect key="frame" x="50" y="667" width="275" height="81"/>
+                                <rect key="frame" x="50" y="697.33333333333337" width="275" height="50.666666666666629"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choice 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpT-fP-SCr">
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choice 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpT-fP-SCr">
                                         <rect key="frame" x="0.0" y="0.0" width="275" height="20.333333333333332"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.73873608729999996" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choice 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rg8-To-tBp">
-                                        <rect key="frame" x="0.0" y="30.333333333333371" width="275" height="20.333333333333329"/>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choice 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rg8-To-tBp">
+                                        <rect key="frame" x="0.0" y="30.333333333333258" width="275" height="20.333333333333329"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.73873608729999996" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choice 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcn-kc-h25">
-                                        <rect key="frame" x="0.0" y="60.666666666666636" width="275" height="20.333333333333336"/>
+                                    <label hidden="YES" opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choice 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcn-kc-h25">
+                                        <rect key="frame" x="0.0" y="50.666666666666629" width="275" height="0.0"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.73873608729999996" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -483,6 +483,7 @@
                         <viewLayoutGuide key="safeArea" id="jC8-51-SDg"/>
                     </view>
                     <connections>
+                        <outlet property="backgroundImage" destination="y7r-xy-XIH" id="YZI-W7-Lbs"/>
                         <outlet property="blockChoice1" destination="HpT-fP-SCr" id="l5I-ys-der"/>
                         <outlet property="blockChoice2" destination="rg8-To-tBp" id="Ry9-Wy-peZ"/>
                         <outlet property="blockChoice3" destination="fcn-kc-h25" id="6B9-L7-e5U"/>
@@ -501,10 +502,10 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="gnQ-SY-c40"/>
-        <segue reference="zfg-iX-XBg"/>
-        <segue reference="K0K-LB-3Ag"/>
+        <segue reference="Had-7w-dws"/>
+        <segue reference="t4Q-Mh-LHx"/>
         <segue reference="lhJ-eU-ZxW"/>
         <segue reference="enr-Hp-ozx"/>
-        <segue reference="Yfh-Ue-fE5"/>
+        <segue reference="Cyf-mo-Gpz"/>
     </inferredMetricsTieBreakers>
 </document>

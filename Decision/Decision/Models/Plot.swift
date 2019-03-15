@@ -14,7 +14,7 @@ class Plot {
     
     private(set) var vault: [String : Stage]!
     
-    static let FIRST_STAGE = "AA000"
+    static let FIRST_STAGE = "AA028"
     
     private(set) var lastStageId: String! = Plot.FIRST_STAGE
     

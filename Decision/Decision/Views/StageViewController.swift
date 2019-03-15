@@ -122,6 +122,7 @@ class StageViewController: UIViewController {
         
         if stageID == "END" {
             performSegue(withIdentifier: "toEnd", sender: nil)
+            return
         }
         
         let nextStage = Plot.instance.getStage(by: stageID)

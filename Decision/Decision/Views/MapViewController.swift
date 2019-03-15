@@ -13,10 +13,65 @@ class MapViewController: UIViewController {
     @IBOutlet weak var blockChoice1: UILabel!
     @IBOutlet weak var blockChoice2: UILabel!
     @IBOutlet weak var blockChoice3: UILabel!
+    @IBOutlet weak var backgroundImage: UIImageView!
+    
+    var stage: Stage! {
+        didSet {
+            
+            backgroundImage.image = UIImage(named: stage.image!)
+            
+            blockChoice1.text = stage.choices[0]
+            blockChoice2.text = stage.choices[1]
+            
+            if stage.hasThreeChoices {
+                blockChoice3.text = stage.choices[2]
+                blockChoice3.isHidden = false
+            } else {
+                blockChoice3.isHidden = true
+            }
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        stage = Plot.instance.getActiveStage()
+        
+        setUIProperties()
+        
+        var gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MapViewController.onTouchChoice1))
+        blockChoice1.addGestureRecognizer(gestureRecognizer)
+        
+        gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MapViewController.onTouchChoice2))
+        blockChoice2.addGestureRecognizer(gestureRecognizer)
+        
+        gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MapViewController.onTouchChoice3))
+        blockChoice3.addGestureRecognizer(gestureRecognizer)
+    }
+    
+    @objc func onTouchChoice1(gestureRecognizer: UITapGestureRecognizer) {
+        moveTo(next: stage.nextIDForChoices[0])
+    }
+    
+    @objc func onTouchChoice2(gestureRecognizer: UITapGestureRecognizer) {
+        moveTo(next: stage.nextIDForChoices[1])
+    }
+    
+    @objc func onTouchChoice3(gestureRecognizer: UITapGestureRecognizer) {
+        moveTo(next: stage.nextIDForChoices[2])
+    }
+    
+    func moveTo(next stageID: String) {
+        let nextStage = Plot.instance.getStage(by: stageID)
+        
+        if nextStage.type == Stage.Types.SIMPLE ||
+            nextStage.type == Stage.Types.CHOICE {
+            performSegue(withIdentifier: "toStage", sender: nil)
+        }
+    }
+    
+    func setUIProperties(){
         // Set padding
         blockChoice1.padding =  UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         blockChoice2.padding =  UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
@@ -35,6 +90,5 @@ class MapViewController: UIViewController {
         blockChoice2.numberOfLines = 0
         blockChoice3.numberOfLines = 0
     }
-    
 
 }
