@@ -59,7 +59,10 @@ class StageViewController: UIViewController {
     }
 
     func changeTextBox() {
-        mainBlockText.text = stage.text[numberOfBlock]
+        var text = stage.text[numberOfBlock]
+        text = text.replacingOccurrences(of: "\\n", with: "\n")
+        text = text.replacingOccurrences(of: "\\t\\t", with: "\t")
+        mainBlockText.text = text
         numberOfBlock += 1
         
         if numberOfBlock == stage.text.count && stage.type == Stage.Types.CHOICE {
