@@ -15,6 +15,7 @@ class StageViewController: UIViewController {
     @IBOutlet weak var blockChoice2: UILabel!
     @IBOutlet weak var blockChoice3: UILabel!
     @IBOutlet weak var backgroundImage: UIImageView!
+    @IBOutlet weak var buttonSettings: UIImageView!
     
     private var numberOfBlock = 0
     
@@ -56,8 +57,54 @@ class StageViewController: UIViewController {
         
         gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(StageViewController.touchChoice3))
         blockChoice3.addGestureRecognizer(gestureRecognizer)
+        
+        gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(StageViewController.touchSettings))
+        buttonSettings.addGestureRecognizer(gestureRecognizer)
     }
 
+    @objc func touchMainTextBlock(gestureRecognizer: UIGestureRecognizer) {
+        
+        if numberOfBlock < stage.text.count {
+            changeTextBox()
+        } else if numberOfBlock == stage.text.count && stage.type == Stage.Types.SIMPLE {
+            moveTo(next: stage.nextID!)
+        }
+        
+    }
+    
+    @objc func touchChoice1(gestureRecognizer: UIGestureRecognizer) {
+        moveTo(next: stage.nextIDForChoices[0])
+    }
+    
+    @objc func touchChoice2(gestureRecognizer: UIGestureRecognizer) {
+        moveTo(next: stage.nextIDForChoices[1])
+    }
+    
+    @objc func touchChoice3(gestureRecognizer: UIGestureRecognizer) {
+        moveTo(next: stage.nextIDForChoices[0])
+    }
+    
+    @objc func touchSettings(gestureRecognizer: UIGestureRecognizer) {
+        performSegue(withIdentifier: "toSettings", sender: nil)
+    }
+    
+    func moveTo(next stageID: String) {
+        
+        if stageID == "END" {
+            performSegue(withIdentifier: "toEnd", sender: nil)
+            return
+        }
+        
+        let nextStage = Plot.instance.getStage(by: stageID)
+        
+        switch nextStage.type! {
+        case Stage.Types.SIMPLE, Stage.Types.CHOICE: stage = nextStage
+        case Stage.Types.MAP: performSegue(withIdentifier: "toMap", sender: nil)
+        case Stage.Types.CHAPTER: performSegue(withIdentifier: "toChapter", sender: nil)
+        case Stage.Types.BLACK_SCREEN: performSegue(withIdentifier: "toBlackScreen", sender: nil)
+        }
+    }
+    
     func changeTextBox() {
         var text = stage.text[numberOfBlock]
         numberOfBlock += 1
@@ -98,45 +145,6 @@ class StageViewController: UIViewController {
         blockChoice3.numberOfLines = 0
     }
     
-    
-    @objc func touchMainTextBlock(gestureRecognizer: UIGestureRecognizer) {
-        
-        if numberOfBlock < stage.text.count {
-            changeTextBox()
-        } else if numberOfBlock == stage.text.count && stage.type == Stage.Types.SIMPLE {
-            moveTo(next: stage.nextID!)
-        }
-        
-    }
-    
-    @objc func touchChoice1(gestureRecognizer: UIGestureRecognizer) {
-        moveTo(next: stage.nextIDForChoices[0])
-    }
-    
-    @objc func touchChoice2(gestureRecognizer: UIGestureRecognizer) {
-        moveTo(next: stage.nextIDForChoices[1])
-    }
-    
-    @objc func touchChoice3(gestureRecognizer: UIGestureRecognizer) {
-        moveTo(next: stage.nextIDForChoices[0])
-    }
-    
-    func moveTo(next stageID: String) {
-        
-        if stageID == "END" {
-            performSegue(withIdentifier: "toEnd", sender: nil)
-            return
-        }
-        
-        let nextStage = Plot.instance.getStage(by: stageID)
-        
-        switch nextStage.type! {
-        case Stage.Types.SIMPLE, Stage.Types.CHOICE: stage = nextStage
-        case Stage.Types.MAP: performSegue(withIdentifier: "toMap", sender: nil)
-        case Stage.Types.CHAPTER: performSegue(withIdentifier: "toChapter", sender: nil)
-        case Stage.Types.BLACK_SCREEN: performSegue(withIdentifier: "toBlackScreen", sender: nil)
-        }
-    }
 }
 
 

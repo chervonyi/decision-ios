@@ -402,15 +402,24 @@
                                     <constraint firstItem="KFh-dR-INW" firstAttribute="leading" secondItem="OQ2-VY-LAM" secondAttribute="leading" constant="30" id="q7I-BP-F1p"/>
                                 </constraints>
                             </stackView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_settings" translatesAutoresizingMaskIntoConstraints="NO" id="5s1-Xs-NVh">
+                                <rect key="frame" x="10" y="44" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="MyX-U9-q0d"/>
+                                    <constraint firstAttribute="width" constant="30" id="x45-oI-DvM"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="IL3-kP-mwp" firstAttribute="trailing" secondItem="OQ2-VY-LAM" secondAttribute="trailing" id="0B9-3X-oRq"/>
                             <constraint firstAttribute="bottom" secondItem="yjW-Oc-xNA" secondAttribute="bottom" id="6HX-ZR-jhP"/>
+                            <constraint firstItem="5s1-Xs-NVh" firstAttribute="top" secondItem="IL3-kP-mwp" secondAttribute="top" id="CcY-xI-sFq"/>
                             <constraint firstItem="yjW-Oc-xNA" firstAttribute="top" secondItem="tV5-Vd-xMZ" secondAttribute="top" id="Lhk-9Z-eOQ"/>
                             <constraint firstItem="OQ2-VY-LAM" firstAttribute="leading" secondItem="IL3-kP-mwp" secondAttribute="leading" id="YcS-FO-FeF"/>
                             <constraint firstItem="yjW-Oc-xNA" firstAttribute="leading" secondItem="IL3-kP-mwp" secondAttribute="leading" id="YoS-E3-f3M"/>
                             <constraint firstItem="yjW-Oc-xNA" firstAttribute="trailing" secondItem="IL3-kP-mwp" secondAttribute="trailing" id="n74-nD-Rxa"/>
+                            <constraint firstItem="5s1-Xs-NVh" firstAttribute="leading" secondItem="IL3-kP-mwp" secondAttribute="leading" constant="10" id="tkc-Oq-vmz"/>
                             <constraint firstItem="OQ2-VY-LAM" firstAttribute="centerY" secondItem="tV5-Vd-xMZ" secondAttribute="centerY" id="yZX-ts-cjd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IL3-kP-mwp"/>
@@ -420,6 +429,7 @@
                         <outlet property="blockChoice1" destination="KFh-dR-INW" id="11x-jK-bAz"/>
                         <outlet property="blockChoice2" destination="t6T-hL-SVU" id="pAn-7Z-tph"/>
                         <outlet property="blockChoice3" destination="LTa-jJ-66N" id="JPk-3k-MTl"/>
+                        <outlet property="buttonSettings" destination="5s1-Xs-NVh" id="LFd-xR-ivk"/>
                         <outlet property="mainBlockText" destination="nOR-QS-J0q" id="wrO-K5-5id"/>
                         <segue destination="l9y-Ni-yrs" kind="show" identifier="toMap" animates="NO" id="gnQ-SY-c40"/>
                         <segue destination="7fw-JW-rGa" kind="show" identifier="toBlackScreen" animates="NO" id="enr-Hp-ozx"/>
@@ -430,7 +440,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="61W-KE-9cg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2426" y="132"/>
+            <point key="canvasLocation" x="2424.8000000000002" y="131.52709359605913"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="OEH-Xu-2WV">
@@ -469,6 +479,13 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_settings" translatesAutoresizingMaskIntoConstraints="NO" id="bYn-Wf-GyW">
+                                <rect key="frame" x="10" y="44" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="QZJ-ol-fMu"/>
+                                    <constraint firstAttribute="height" constant="30" id="dsk-Td-MKP"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -476,9 +493,11 @@
                             <constraint firstAttribute="bottom" secondItem="y7r-xy-XIH" secondAttribute="bottom" id="PVd-ES-VhC"/>
                             <constraint firstItem="jC8-51-SDg" firstAttribute="bottom" secondItem="Vmj-73-EaL" secondAttribute="bottom" constant="30" id="UVe-8c-dzK"/>
                             <constraint firstItem="Vmj-73-EaL" firstAttribute="leading" secondItem="jC8-51-SDg" secondAttribute="leading" constant="50" id="YRW-iE-d9W"/>
+                            <constraint firstItem="bYn-Wf-GyW" firstAttribute="top" secondItem="jC8-51-SDg" secondAttribute="top" id="glX-II-33U"/>
                             <constraint firstItem="y7r-xy-XIH" firstAttribute="top" secondItem="77d-8t-9hL" secondAttribute="top" id="jGm-di-56u"/>
                             <constraint firstItem="jC8-51-SDg" firstAttribute="trailing" secondItem="y7r-xy-XIH" secondAttribute="trailing" id="lgD-Xm-i6I"/>
                             <constraint firstItem="jC8-51-SDg" firstAttribute="trailing" secondItem="Vmj-73-EaL" secondAttribute="trailing" constant="50" id="pT3-kV-rCx"/>
+                            <constraint firstItem="bYn-Wf-GyW" firstAttribute="leading" secondItem="jC8-51-SDg" secondAttribute="leading" constant="10" id="q0C-Y4-Sy4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jC8-51-SDg"/>
                     </view>
@@ -487,6 +506,7 @@
                         <outlet property="blockChoice1" destination="HpT-fP-SCr" id="l5I-ys-der"/>
                         <outlet property="blockChoice2" destination="rg8-To-tBp" id="Ry9-Wy-peZ"/>
                         <outlet property="blockChoice3" destination="fcn-kc-h25" id="6B9-L7-e5U"/>
+                        <outlet property="buttonSettings" destination="bYn-Wf-GyW" id="FYm-9O-eXY"/>
                         <segue destination="CSs-kB-Sel" kind="show" identifier="toStage" animates="NO" id="Had-7w-dws"/>
                         <segue destination="O9I-hA-vuN" kind="show" identifier="toSettings" animates="NO" id="t4Q-Mh-LHx"/>
                     </connections>
@@ -497,6 +517,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ic_settings" width="96" height="96"/>
         <image name="image_0" width="1000" height="1000"/>
         <image name="map_1" width="800" height="1461"/>
     </resources>
@@ -506,6 +527,6 @@
         <segue reference="t4Q-Mh-LHx"/>
         <segue reference="lhJ-eU-ZxW"/>
         <segue reference="enr-Hp-ozx"/>
-        <segue reference="Cyf-mo-Gpz"/>
+        <segue reference="Yfh-Ue-fE5"/>
     </inferredMetricsTieBreakers>
 </document>

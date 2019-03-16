@@ -22,7 +22,7 @@ class EndGameViewController: UIViewController {
         buttonRestart.addGestureRecognizer(gestureRecognizer)
     }
 
-    @objc func onTouchRestart(gestureRecognizer: UITapGestureRecognizer) {
+    @objc func onTouchRestart(gestureRecognizer: UIGestureRecognizer) {
         Plot.instance.restart()
         let firstStage = Plot.instance.getActiveStage()
         

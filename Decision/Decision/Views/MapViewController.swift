@@ -14,6 +14,7 @@ class MapViewController: UIViewController {
     @IBOutlet weak var blockChoice2: UILabel!
     @IBOutlet weak var blockChoice3: UILabel!
     @IBOutlet weak var backgroundImage: UIImageView!
+    @IBOutlet weak var buttonSettings: UIImageView!
     
     var stage: Stage! {
         didSet {
@@ -48,17 +49,24 @@ class MapViewController: UIViewController {
         
         gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MapViewController.onTouchChoice3))
         blockChoice3.addGestureRecognizer(gestureRecognizer)
+        
+        gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MapViewController.onTouchSettings))
+        buttonSettings.addGestureRecognizer(gestureRecognizer)
     }
     
-    @objc func onTouchChoice1(gestureRecognizer: UITapGestureRecognizer) {
+    @objc func onTouchSettings(gestureRecognizer: UIGestureRecognizer) {
+        performSegue(withIdentifier: "toSettings", sender: nil)
+    }
+    
+    @objc func onTouchChoice1(gestureRecognizer: UIGestureRecognizer) {
         moveTo(next: stage.nextIDForChoices[0])
     }
     
-    @objc func onTouchChoice2(gestureRecognizer: UITapGestureRecognizer) {
+    @objc func onTouchChoice2(gestureRecognizer: UIGestureRecognizer) {
         moveTo(next: stage.nextIDForChoices[1])
     }
     
-    @objc func onTouchChoice3(gestureRecognizer: UITapGestureRecognizer) {
+    @objc func onTouchChoice3(gestureRecognizer: UIGestureRecognizer) {
         moveTo(next: stage.nextIDForChoices[2])
     }
     
