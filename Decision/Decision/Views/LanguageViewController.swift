@@ -25,11 +25,25 @@ class LanguageViewController: UIViewController {
         buttonLanguageUkr.layer.cornerRadius = 5
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func onSelectLanguage(_ sender: UIButton) {
+        
+        switch sender {
+            case buttonLanguageEng: Settings.language = .ENGLISH
+            case buttonLanguageRus: Settings.language = .RUSSIAN
+            case buttonLanguageUkr: Settings.language = .UKRAINIAN
+            default: break
+        }
+        
+        // Update scenarion with new language
+        Plot.instance.loadScenario()
+        
+        let pausedStage = Plot.instance.getActiveStage()
+        
+        // Replace segue with Restart of app (IF LANGUAGE WILL NOT BE CHANGE ON AIR)
+        if pausedStage.type == Stage.Types.MAP {
+            performSegue(withIdentifier: "toMap", sender: nil)
+        } else {
+            performSegue(withIdentifier: "toStage", sender: nil)
+        }
     }
-    
-
-
 }

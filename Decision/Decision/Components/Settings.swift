@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class Settings {
     
@@ -20,6 +21,14 @@ class Settings {
                 case .ENGLISH: return "ENGLISH"
                 case .RUSSIAN: return "RUSSIAN"
                 case .UKRAINIAN: return "UKRAINIAN"
+            }
+        }
+        
+        var languageIdentifier: String {
+            switch self {
+            case .ENGLISH: return "en"
+            case .RUSSIAN: return "ru"
+            case .UKRAINIAN: return "uk"
             }
         }
     }
@@ -43,6 +52,12 @@ class Settings {
         }
         
         set {
+            // Update app language
+            preferences.set([newValue.languageIdentifier], forKey: "AppleLanguages")
+            //preferences.synchronize()
+            
+            
+            // Save to memory
             preferences.set(newValue.string, forKey: KEY_LANGUAGE)
             preferences.synchronize()
         }
@@ -67,3 +82,5 @@ class Settings {
     
     
 }
+
+

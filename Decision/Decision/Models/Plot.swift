@@ -32,8 +32,21 @@ class Plot {
     
     func loadXMLFiles() {
         vault = PlotXMLParser.loadPlotFromXML()
-        // TODO read appropriate file
-        vault = ScenarioXMLParser.loadScenario(baseOn: vault, in: "scenario_en")
+        
+        loadScenario()
+    }
+    
+    func loadScenario() {
+        
+        var selectedLanguage: String!
+        
+        switch Settings.language {
+            case Settings.Language.ENGLISH: selectedLanguage = "scenario_en"
+            case .RUSSIAN: selectedLanguage = "scenario_ru"
+            case .UKRAINIAN: selectedLanguage = "scenario_uk"
+        }
+        
+        vault = ScenarioXMLParser.loadScenario(baseOn: vault, in: selectedLanguage)
     }
     
     func getStage(by id: String) -> Stage {

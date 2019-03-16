@@ -37,6 +37,13 @@ class ScenarioXMLParser: NSObject, XMLParserDelegate {
             accessToData = true
             body = ""
         }
+        
+        // Clear blocks that work with 'append' func (below)
+        if elementName == "text" {
+            stage.text.removeAll()
+        } else if elementName == "choice" {
+            stage.choices.removeAll()
+        }
     }
     
     func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
