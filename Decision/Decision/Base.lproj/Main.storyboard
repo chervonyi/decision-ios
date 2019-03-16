@@ -20,22 +20,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hwq-BI-lxa">
-                                <rect key="frame" x="43.333333333333343" y="313" width="288.66666666666663" height="126"/>
+                                <rect key="frame" x="50" y="313" width="275" height="126"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvl-24-Nai">
-                                        <rect key="frame" x="98" y="0.0" width="92.666666666666686" height="28.666666666666668"/>
+                                        <rect key="frame" x="91.333333333333343" y="0.0" width="92.666666666666657" height="28.666666666666668"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Each of your decision affects the plot." textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEw-ns-76M">
-                                        <rect key="frame" x="0.0" y="48.666666666666686" width="288.66666666666669" height="28.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="48.666666666666686" width="275" height="28.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make the choice wisely!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajt-hH-OeW">
-                                        <rect key="frame" x="53.333333333333343" y="97.333333333333314" width="182" height="28.666666666666671"/>
+                                        <rect key="frame" x="46.666666666666686" y="97.333333333333314" width="182" height="28.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -43,10 +43,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Always tap text to continue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rg3-Ud-WQc">
-                                <rect key="frame" x="95" y="708" width="185" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="Ai0-RM-EPn"/>
-                                </constraints>
+                                <rect key="frame" x="50" y="710" width="275" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -54,14 +51,19 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Rg3-Ud-WQc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Xk-8u-891"/>
+                            <constraint firstItem="hwq-BI-lxa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Cwm-kX-qNj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Rg3-Ud-WQc" secondAttribute="bottom" constant="50" id="ZuG-Lu-eBE"/>
-                            <constraint firstItem="hwq-BI-lxa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="djd-1t-KNV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rg3-Ud-WQc" secondAttribute="trailing" constant="50" id="ajN-ji-I57"/>
+                            <constraint firstItem="Rg3-Ud-WQc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="fQZ-73-DWm"/>
                             <constraint firstItem="hwq-BI-lxa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-30" id="qPQ-4J-gbC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hwq-BI-lxa" secondAttribute="trailing" constant="50" id="ymE-5U-pC3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="labelLongInfo1" destination="NEw-ns-76M" id="nna-kP-0Gt"/>
+                        <outlet property="labelLongInfo2" destination="ajt-hH-OeW" id="EQR-vH-ZGu"/>
+                        <outlet property="labelTapInfo" destination="Rg3-Ud-WQc" id="3fh-8H-hAU"/>
                         <segue destination="oM1-Zo-eeq" kind="show" identifier="toChapter" animates="NO" id="RAG-WM-5Yy"/>
                         <segue destination="l9y-Ni-yrs" kind="show" identifier="toMap" animates="NO" id="GlZ-qi-gIg"/>
                         <segue destination="CSs-kB-Sel" kind="show" identifier="toStage" animates="NO" id="zfg-iX-XBg"/>
@@ -524,11 +526,11 @@
         <image name="map_1" width="800" height="1461"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KBT-Gf-kJg"/>
-        <segue reference="c8m-8Q-Ihd"/>
+        <segue reference="GlZ-qi-gIg"/>
+        <segue reference="zfg-iX-XBg"/>
         <segue reference="t4Q-Mh-LHx"/>
         <segue reference="lhJ-eU-ZxW"/>
-        <segue reference="enr-Hp-ozx"/>
-        <segue reference="Cyf-mo-Gpz"/>
+        <segue reference="hHl-ya-Jqi"/>
+        <segue reference="RAG-WM-5Yy"/>
     </inferredMetricsTieBreakers>
 </document>

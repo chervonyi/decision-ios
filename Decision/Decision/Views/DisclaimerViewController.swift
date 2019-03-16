@@ -10,10 +10,18 @@ import UIKit
 
 class DisclaimerViewController: UIViewController {
 
+    @IBOutlet weak var labelLongInfo1: UILabel!
+    @IBOutlet weak var labelLongInfo2: UILabel!
+    @IBOutlet weak var labelTapInfo: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         Plot.instance.loadXMLFiles()
+        
+        labelLongInfo1.numberOfLines = 0
+        labelLongInfo1.numberOfLines = 0
+        labelTapInfo.numberOfLines = 0
         
         // Load last stage from memory
         Plot.instance.startStage = Settings.lastStage

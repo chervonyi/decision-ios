@@ -1,0 +1,69 @@
+
+/* Class = "UIButton"; normalTitle = "РУССКИЙ"; ObjectID = "0Y8-gM-eSe"; */
+"0Y8-gM-eSe.normalTitle" = "РУССКИЙ";
+
+/* Class = "UILabel"; text = "Try to discover a different ending for yourself!"; ObjectID = "6zi-zQ-rFj"; */
+"6zi-zQ-rFj.text" = "Попробуйте открыть для себя другую концовку!";
+
+/* Class = "UIButton"; normalTitle = "ENGLISH"; ObjectID = "HUh-lk-rph"; */
+"HUh-lk-rph.normalTitle" = "ENGLISH";
+
+/* Class = "UILabel"; text = "Choice 1"; ObjectID = "HpT-fP-SCr"; */
+"HpT-fP-SCr.text" = "Choice 1";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "HvE-40-1dr"; */
+"HvE-40-1dr.normalTitle" = "Продолжить";
+
+/* Class = "UILabel"; text = "Choice 1"; ObjectID = "KFh-dR-INW"; */
+"KFh-dR-INW.text" = "Choice 1";
+
+/* Class = "UILabel"; text = "CHAPTER 1"; ObjectID = "Kaa-YX-mct"; */
+"Kaa-YX-mct.text" = "CHAPTER 1";
+
+/* Class = "UIButton"; normalTitle = "Restart"; ObjectID = "LCe-hT-7Kb"; */
+"LCe-hT-7Kb.normalTitle" = "Начать заново";
+
+/* Class = "UILabel"; text = "Choice 3"; ObjectID = "LTa-jJ-66N"; */
+"LTa-jJ-66N.text" = "Choice 3";
+
+/* Class = "UILabel"; text = "Each of your decision affects the plot."; ObjectID = "NEw-ns-76M"; */
+"NEw-ns-76M.text" = "Каждый ваш выбор влияет на развитие сюжета.";
+
+/* Class = "UILabel"; text = "Always tap text to continue"; ObjectID = "Rg3-Ud-WQc"; */
+"Rg3-Ud-WQc.text" = "Всегда нажимайте на текст чтобы продолжить";
+
+/* Class = "UIButton"; normalTitle = "УКРАЇНСЬКА"; ObjectID = "Wc2-2B-wbt"; */
+"Wc2-2B-wbt.normalTitle" = "УКРАЇНСЬКА";
+
+/* Class = "UILabel"; text = "Warning!"; ObjectID = "Wvl-24-Nai"; */
+"Wvl-24-Nai.text" = "Внимание!";
+
+/* Class = "UILabel"; text = "Make the choice wisely!"; ObjectID = "ajt-hH-OeW"; */
+"ajt-hH-OeW.text" = "Делайте выбор с умом!";
+
+/* Class = "UILabel"; text = "THE END"; ObjectID = "bom-AX-6hb"; */
+"bom-AX-6hb.text" = "КОНЕЦ";
+
+/* Class = "UILabel"; text = "Choice 3"; ObjectID = "fcn-kc-h25"; */
+"fcn-kc-h25.text" = "Choice 3";
+
+/* Class = "UIButton"; normalTitle = "Change language"; ObjectID = "fdU-c4-b04"; */
+"fdU-c4-b04.normalTitle" = "Сменить язык";
+
+/* Class = "UILabel"; text = "Main text long longvery long text"; ObjectID = "nOR-QS-J0q"; */
+"nOR-QS-J0q.text" = "Main text long longvery long text";
+
+/* Class = "UILabel"; text = "Choice 2"; ObjectID = "rg8-To-tBp"; */
+"rg8-To-tBp.text" = "Choice 2";
+
+/* Class = "UILabel"; text = "New people?"; ObjectID = "rmC-KA-33G"; */
+"rmC-KA-33G.text" = "New people?";
+
+/* Class = "UILabel"; text = "Choice 2"; ObjectID = "t6T-hL-SVU"; */
+"t6T-hL-SVU.text" = "Choice 2";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate."; ObjectID = "wph-1F-j8x"; */
+"wph-1F-j8x.text" = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate.";
+
+/* Class = "UIButton"; normalTitle = "Restart"; ObjectID = "xLv-6B-yra"; */
+"xLv-6B-yra.normalTitle" = "Начать заново";
