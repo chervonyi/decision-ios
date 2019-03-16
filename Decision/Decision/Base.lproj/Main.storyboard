@@ -342,6 +342,8 @@
                         <outlet property="buttonRestart" destination="xLv-6B-yra" id="xu9-Mu-qvs"/>
                         <segue destination="dvb-AR-XSj" kind="show" identifier="toLanguage" animates="NO" id="eCv-V7-2mD"/>
                         <segue destination="oM1-Zo-eeq" kind="show" identifier="toChapter" animates="NO" id="Cyf-mo-Gpz"/>
+                        <segue destination="l9y-Ni-yrs" kind="show" identifier="toMap" animates="NO" id="KBT-Gf-kJg"/>
+                        <segue destination="CSs-kB-Sel" kind="show" identifier="toStage" animates="NO" id="c8m-8Q-Ihd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ggt-rS-xJW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -522,11 +524,11 @@
         <image name="map_1" width="800" height="1461"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gnQ-SY-c40"/>
-        <segue reference="Had-7w-dws"/>
+        <segue reference="KBT-Gf-kJg"/>
+        <segue reference="c8m-8Q-Ihd"/>
         <segue reference="t4Q-Mh-LHx"/>
         <segue reference="lhJ-eU-ZxW"/>
         <segue reference="enr-Hp-ozx"/>
-        <segue reference="Yfh-Ue-fE5"/>
+        <segue reference="Cyf-mo-Gpz"/>
     </inferredMetricsTieBreakers>
 </document>

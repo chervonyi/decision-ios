@@ -14,10 +14,42 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var buttonRestart: UIButton!
     @IBOutlet weak var buttonChangeLanguage: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setUIProperties()
+        
+        var gustureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SettingsViewController.onTouchContinue))
+        buttonContinue.addGestureRecognizer(gustureRecognizer)
+        
+        gustureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SettingsViewController.onTouchRestart))
+        buttonRestart.addGestureRecognizer(gustureRecognizer)
+        
+        gustureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SettingsViewController.onTouchChangeLanguage))
+        buttonChangeLanguage.addGestureRecognizer(gustureRecognizer)
+    }
+
+    
+    @objc func onTouchContinue(gestureRecognizer: UIGestureRecognizer) {
+        let nextStage = Plot.instance.getActiveStage()
+        
+        if nextStage.type == Stage.Types.MAP {
+            performSegue(withIdentifier: "toMap", sender: nil)
+        } else {
+            performSegue(withIdentifier: "toStage", sender: nil)
+        }
+    }
+    
+    @objc func onTouchRestart(gestureRecognizer: UIGestureRecognizer) {
+        Plot.instance.restart()
+        performSegue(withIdentifier: "toChapter", sender: nil)
+    }
+    
+    @objc func onTouchChangeLanguage(gestureRecognizer: UIGestureRecognizer) {
+        performSegue(withIdentifier: "toLanguage", sender: nil)
+    }
+    
+    func setUIProperties() {
         buttonContinue.layer.masksToBounds = true
         buttonContinue.layer.cornerRadius = 5
         buttonRestart.layer.masksToBounds = true
@@ -25,21 +57,4 @@ class SettingsViewController: UIViewController {
         buttonChangeLanguage.layer.masksToBounds = true
         buttonChangeLanguage.layer.cornerRadius = 5
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
