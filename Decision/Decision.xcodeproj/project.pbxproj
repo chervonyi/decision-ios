@@ -52,6 +52,8 @@
 		DA407AE52239F87A0042770E /* PlotXMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotXMLParser.swift; sourceTree = "<group>"; };
 		DA4B1CD0223D6E730001E404 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DA4B1CD1223D6E740001E404 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		DA4B1CD4223D77780001E404 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DA4B1CD5223D77780001E404 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
 		DA9BFEF12238A92A00A8035C /* EndGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
 		DACC8AAB223961F800BD5804 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
 		DACC8AAD22396AE800BD5804 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 			children = (
 				DA32B1A22238418C00E817BC /* Base */,
 				DA4B1CD1223D6E740001E404 /* ru */,
+				DA4B1CD5223D77780001E404 /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			children = (
 				DA32B1A72238418C00E817BC /* Base */,
 				DA4B1CD0223D6E730001E404 /* ru */,
+				DA4B1CD4223D77780001E404 /* uk */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
