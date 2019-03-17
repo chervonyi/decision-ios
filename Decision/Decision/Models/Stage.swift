@@ -39,6 +39,9 @@ class Stage {
         return choices.count == 3
     }
     
+    var isNextStageIsChapter: Bool {
+        return type == Types.SIMPLE && Plot.instance.lookAtNextStage(by: nextID!).type == Types.CHAPTER
+    }
     
     func getType(from string: String) -> Types? {
         switch string {

@@ -55,6 +55,10 @@ class Plot {
         return vault[id] ?? Stage()
     }
     
+    func lookAtNextStage(by id: String) -> Stage {
+        return vault[id] ?? Stage()
+    }
+    
     func getActiveStage() -> Stage {
         return getStage(by: lastStageId)
     }

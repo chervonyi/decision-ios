@@ -36,6 +36,12 @@ class StageViewController: UIViewController {
                 
                 if stage.hasThreeChoices {  blockChoice3.text = stage.choices[2] }
             }
+            
+            /*
+            if stage.isNextStageIsChapter {
+                // TODO Paste ad here
+            }
+            */
         }
     }
     
@@ -73,15 +79,18 @@ class StageViewController: UIViewController {
     }
     
     @objc func touchChoice1(gestureRecognizer: UIGestureRecognizer) {
+        print("choice 1")
         moveTo(next: stage.nextIDForChoices[0])
     }
     
     @objc func touchChoice2(gestureRecognizer: UIGestureRecognizer) {
+        print("choice 2")
         moveTo(next: stage.nextIDForChoices[1])
     }
     
     @objc func touchChoice3(gestureRecognizer: UIGestureRecognizer) {
-        moveTo(next: stage.nextIDForChoices[0])
+        print("choice 3")
+        moveTo(next: stage.nextIDForChoices[2])
     }
     
     @objc func touchSettings(gestureRecognizer: UIGestureRecognizer) {
@@ -126,9 +135,9 @@ class StageViewController: UIViewController {
     func setUIProperties() {
         // Set padding
         mainBlockText.padding =  UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
-        blockChoice1.padding =  UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
-        blockChoice2.padding =  UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
-        blockChoice3.padding =  UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
+        blockChoice1.padding =  UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        blockChoice2.padding =  UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        blockChoice3.padding =  UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         
         // Set rounded coreners
         blockChoice1.layer.masksToBounds = true
