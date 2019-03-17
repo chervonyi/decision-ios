@@ -16,6 +16,7 @@ class ScenarioXMLParser: NSObject, XMLParserDelegate {
     private var stage: Stage!
     static private(set) var plot: [String : Stage]!
     private var body = ""
+    private var isNewStage = true
     
     static func loadScenario(baseOn plot: [String : Stage], in file: String) -> [String : Stage] {
         ScenarioXMLParser.plot = plot
@@ -38,11 +39,16 @@ class ScenarioXMLParser: NSObject, XMLParserDelegate {
             body = ""
         }
         
+        if elementName == "stage" {
+            isNewStage = true
+        }
+        
         // Clear blocks that work with 'append' func (below)
         if elementName == "text" {
             stage.text.removeAll()
-        } else if elementName == "choice" {
+        } else if elementName == "choice" && isNewStage {
             stage.choices.removeAll()
+            isNewStage = false
         }
     }
     

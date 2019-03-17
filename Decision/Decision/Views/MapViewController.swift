@@ -79,6 +79,12 @@ class MapViewController: UIViewController {
         }
     }
     
+    // Block of rotation that view
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    
+    
     func setUIProperties(){
         // Set padding
         blockChoice1.padding =  UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
